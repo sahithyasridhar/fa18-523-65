@@ -4,3 +4,7 @@ Week Fri 08/31/18 - 09/06/18
 * Python revision
 * Started watching video lectures
 * Started generating ideas for project topic.
+# Week Fri 09/07/18 - 09/13/18
+* created futuresystem account
+*"Intro to big data"-completed 6 lectures
+* Started reading about Technology Summaries Assignment topics.
