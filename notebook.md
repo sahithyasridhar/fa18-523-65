@@ -9,7 +9,7 @@ Week Fri 08/31/18 - 09/06/18
 * Created futuresystem account
 * "Intro to big data"-completed 6 lectures
 * Started reading about Technology Summaries Assignment topics.
-# Week 09/14/18 - 09/20/18
+# Week Fri 09/14/18 - 09/20/18
 * Installed jabref
 * Started technology summaries
 * Completed lectures in "Intro to Big data"
