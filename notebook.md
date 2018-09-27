@@ -12,4 +12,8 @@ Week Fri 08/31/18 - 09/06/18
 # Week Fri 09/14/18 - 09/20/18
 * Installed jabref
 * Started technology summaries
-* Completed lectures in "Intro to Big data"
+* Wached lectures of "Intro to Big data"
+# Week Fri 09/21/18 - 09/27/18
+* Wached video lectures
+* went through epub notes
+* Working on techonology summaries
