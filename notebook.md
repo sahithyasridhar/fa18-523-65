@@ -17,3 +17,8 @@ Week Fri 08/31/18 - 09/06/18
 * Wached video lectures
 * went through epub notes
 * Working on techonology summaries
+# Week Fri 09/28/18 - 10/04/18
+* Wached video lectures
+* Completed 2 techonology summaries working on next 2
+* continued reading about project and 2 page paper
+* continued writing snapshot for project and 2 page paper
