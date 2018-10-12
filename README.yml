@@ -4,3 +4,12 @@ owner:
   lastname: Patil
   hid: fa18-523-65
   community: I523
+paper:
+  - title: Natural language processing 
+    url: https://github.com/cloudmesh-community/fa18-523-67/blob/master/paper/paper_snapshot.md
+    group: fa18-523-65 and fa18-523-67
+project: 
+  - title: Data analysis Of Yelp reviews
+    url: https://github.com/cloudmesh-community/fa18-523-65/tree/master/Project-report
+    group: fa18-523-65 , fa18-523-67
+    code: https://github.com/cloudmesh-community/fa18-523-65/blob/master/Project-report/project_code.md
