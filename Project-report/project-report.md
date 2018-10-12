@@ -1,4 +1,4 @@
-Data analysis Of Yelp revievs
+Data analysis Of Yelp reviews
 ======
 # Work Breakdown:
 
