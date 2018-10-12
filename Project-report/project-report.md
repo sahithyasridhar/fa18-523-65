@@ -1,5 +1,4 @@
-# Data analysis Of Yelp reviews
-(snapshot)
+# Data analysis Of Yelp reviews (snapshot)
 ======
 # Project members and Work Breakdown:
 
