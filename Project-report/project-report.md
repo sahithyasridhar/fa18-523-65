@@ -1,6 +1,7 @@
-Data analysis Of Yelp reviews
+# Data analysis Of Yelp reviews
+(snapshot)
 ======
-# Work Breakdown:
+# Project members and Work Breakdown:
 
 Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset
 
@@ -24,12 +25,12 @@ Dataset used for analysis is taken from Kaggle website. Data contains 5.2 millio
 Data is processed to get it ready for analysis. Using NLTK library we remove stop-words.  We also remove punctuations. Then we tokenize and stemm words from review texts. All the words are converted to lowercase. We also remove unnecessary symbols and spaces. We don’t remove number as it might help users with prices which is an important factor while choosing a restaurant.  All these operations help reduce size of data by getting rid of unnecessary data while retaining useful information. 
 # Analysis methods:
 Following methods are used for analysis to make observations and conclusions from data.
-1. Logistic Regression, Multinomial Naïve Bayes and Random Forest algorithm
+- Logistic Regression, Multinomial Naïve Bayes and Random Forest algorithm
 	These are used to predict rating based on text review. This will help understand and predict how well text review and ratings match. Low accuracy means there is more to ratings that just text review. High accuracy means ratings accurately capture sentiments in text review.
-2. Count, Term Frequency Inverse Document Frequency (tfidf) vectorizer, and Linear SVC
+- Count, Term Frequency Inverse Document Frequency (tfidf) vectorizer, and Linear SVC
 	These help with understanding which words are most commonly used in reviews for a restaurant and help gain insight on why certain place might be famous or infamous for.
-3. Centrality measurements
-a)	Degree centrality
-b)	Closeness centrality
-4. Community detection
+- Centrality measurements
+  - Degree centrality
+  - Closeness centrality
+- Community detection
 	Both centrality measurements and community detection help finding various patterns in network. This can reveal how and if which type restaurant tends to get higher/lower rating depending on its distance from downtown or geographical location etc. 
