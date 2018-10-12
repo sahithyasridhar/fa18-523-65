@@ -1,5 +1,5 @@
 # Data analysis Of Yelp reviews (snapshot)
-======
+
 # Project members and Work Breakdown:
 
 Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset
