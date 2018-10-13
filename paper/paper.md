@@ -3,14 +3,14 @@
 This is the snapshot of the final paper that we will be writing. The final
 paper will contain few sample codes and examples.
 
-### Team Members and work breakdown:
+### Team Members and work breakdown
 
   - Sahithya Sridhar (fa18-523-67): Introduction, Natural language text processing,
     Natural Language generation
   - Prajakta Patil (fa18-523-65): Related Work, Applications of NLP, NLP in 
     Yelp data review
   
-# Introduction:
+# Introduction
 Natural language processing (NLP) forms the link between machine language 
 (binary code) to natural languages (which we humans speak). It borrows elements
 from artificial intelligence, computer science and information engineering.
@@ -22,7 +22,7 @@ machine representation. With NLP, it is possible for computers to read text, hea
 speech, interpret it, measure sentiment and determine which parts are important
 [@fa18-523-67-www-google-2].
 
-# Natural language text processing:
+# Natural language text processing
 
 It is well known that quite a bit information which exists out in our world is
 very unstructured. The challenge would be to make a computer to understand this
@@ -135,8 +135,8 @@ NLTK library would be used to process the text and get basic information and
 insight on the data. The next step would be to visualize the data by utilizing
 histogram grids for every star rating. The goal would be to identify which feature
 of the review is useful in finding correlations in the dataframe. Once we derive
-some useful correlations, they could be visualized.
-Challenges faced in NLP text processing:
+some useful correlations, they could be visualized.Challenges faced 
+in NLP text processing:
 
 -	Scalability and potability
 -	Certain techniques are too expensive
