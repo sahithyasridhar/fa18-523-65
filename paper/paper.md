@@ -1,16 +1,16 @@
-### Paper_snaphot
+# Paper_snaphot
 
 This is the snapshot of the final paper that we will be writing. The final
 paper will contain few sample codes and examples.
 
-### Team Members and work breakdown
+## Team Members and work breakdown
 
   - Sahithya Sridhar (fa18-523-67): Introduction, Natural language text processing,
     Natural Language generation
   - Prajakta Patil (fa18-523-65): Related Work, Applications of NLP, NLP in 
     Yelp data review
   
-# Introduction
+## Introduction
 Natural language processing (NLP) forms the link between machine language 
 (binary code) to natural languages (which we humans speak). It borrows elements
 from artificial intelligence, computer science and information engineering.
@@ -22,7 +22,7 @@ machine representation. With NLP, it is possible for computers to read text, hea
 speech, interpret it, measure sentiment and determine which parts are important
 [@fa18-523-67-www-google-2].
 
-# Natural language text processing
+## Natural language text processing
 
 It is well known that quite a bit information which exists out in our world is
 very unstructured. The challenge would be to make a computer to understand this
@@ -58,7 +58,7 @@ The various important terminologies of Natural Language Processing are: -
   connections between component sentences [@fa18-523-67-NLP-3].
 -	Pragmatic - It is concerned with the firm use of the language [@fa18-523-67-NLP]. 
 
-# Natural Language generation
+## Natural Language generation
 
 This happens in four phases:
 -	Identifying the goal
@@ -66,7 +66,7 @@ This happens in four phases:
 -	Evaluate the available resources.
 -	Execute the plans as text [@fa18-523-67-NLP-Art].
 
-# Related Work
+## Related Work
 
 Researchers working on NLP, building tools and systems which makes NLP what it
 is today. Tools like Sentiment Analyzer, parts of speech, Emotion detection,
@@ -90,7 +90,7 @@ Semantic Role Labelling etc made NLP a good topic for research.
   like assigning roles to words that are arguments of a verb in the sentence
   [@fa18-523-67-NLP-Art-4].
 
-# Applications of NLP
+## Applications of NLP
 
 Natural Language Processing can be applied into various areas like Machine
 Translation, Email Spam detection, Information Extraction, Summarization,
@@ -109,7 +109,7 @@ Question Answering etc.
   Maximum Entropy Model etc are used to detect the spams.This is very similar to 
   text categorization [@fa18-523-67-NLP-Art].
 
-# NLP in Yelp data review
+## NLP in Yelp data review
 
 The first step in NLP depends on the application. Voice based systems like Google
 Assistant or Alexa translates words into text using Hidden Markov Models. 
