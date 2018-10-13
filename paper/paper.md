@@ -4,7 +4,8 @@
 
 ## Team Members and work breakdown
 
-  - Sahithya Sridhar (fa18-523-67): 
+  - Sahithya Sridhar (fa18-523-67): Introduction, Natural language text processing,
+    Natural Language generation
   - Prajakta Patil (fa18-523-65): Related Work, Applications of NLP, NLP in 
     Yelp data review
 
