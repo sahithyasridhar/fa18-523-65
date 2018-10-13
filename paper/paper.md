@@ -1,16 +1,17 @@
-# Paper_snaphot
+# Natural language text processing and Language generation 
 
-This is the snapshot of the final paper that we will be writing. The final
-paper will contain few sample codes and examples.
+
 
 ## Team Members and work breakdown
 
-  - Sahithya Sridhar (fa18-523-67): Introduction, Natural language text processing,
-    Natural Language generation
+  - Sahithya Sridhar (fa18-523-67): 
   - Prajakta Patil (fa18-523-65): Related Work, Applications of NLP, NLP in 
     Yelp data review
-  
+
+The final paper will contain few sample codes and examples.
+
 ## Introduction
+
 Natural language processing (NLP) forms the link between machine language 
 (binary code) to natural languages (which we humans speak). It borrows elements
 from artificial intelligence, computer science and information engineering.
