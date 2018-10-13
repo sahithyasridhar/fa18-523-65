@@ -1,6 +1,6 @@
 # Data analysis Of Yelp reviews
 
-:o: duplicated submission as duplicated submission is managed in hid 67 you must decide where you l=place this. We will not review. It also contains wrong headings
+:o: duplicated submission as duplicated submission is managed in hid 67 you must decide where you l=place this. We will not review. It also contains wrong headings, directory name
 
 # Project members and Work Breakdown:
 
