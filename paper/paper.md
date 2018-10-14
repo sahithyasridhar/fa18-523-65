@@ -4,7 +4,7 @@
 | sahsrid@iu.edu, patilpr@iu.edu
 | Indiana University, Bloomington
 | hid: , fa18-523-67, fa18-523-65
-| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/project-report/report.md)
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/paper/paper.md)
 
 
 ## Team Members and work breakdown
