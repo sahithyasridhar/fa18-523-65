@@ -1,4 +1,10 @@
 # Data analysis Of Yelp reviews :hand: fa18-523-65, fa18-523-67
+|Prajakta Patil, Sahithya Sridhar 
+| patilpr@iu.edu, sahsrid@iu.edu
+| Indiana University, Bloomington
+| hid: fa18-523-65, fa18-523-67
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/project-report/report.md)
+
 
 ## Project members and Work Breakdown
 
