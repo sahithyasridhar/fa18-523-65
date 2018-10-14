@@ -1,5 +1,10 @@
-# Natural language text processing and Language generation 
+# Natural language text processing and Language generation :hand: fa18-523-67, fa18-523-65
 
+| Sahithya Sridhar, Prajakta Patil
+| sahsrid@iu.edu, patilpr@iu.edu
+| Indiana University, Bloomington
+| hid: , fa18-523-67, fa18-523-65
+| github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/project-report/report.md)
 
 
 ## Team Members and work breakdown
@@ -8,9 +13,7 @@
     Natural Language generation
   - Prajakta Patil (fa18-523-65): Related Work, Applications of NLP, NLP in 
     Yelp data review
-
-The final paper will contain few sample codes and examples.
-
+    
 ## Introduction
 
 Natural language processing (NLP) forms the link between machine language 
