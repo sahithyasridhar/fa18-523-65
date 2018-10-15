@@ -22,3 +22,7 @@ Week Fri 08/31/18 - 09/06/18
 * Completed 2 techonology summaries working on next 2
 * continued reading about project and 2 page paper
 * continued writing snapshot for project and 2 page paper
+# Week Fri 10/05/18 - 10/11/18
+* Completed technology summaries
+* Wrote snapshot of the paper and project
+* Wached video lecture
