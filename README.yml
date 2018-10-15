@@ -4,6 +4,11 @@ owner:
   lastname: Patil
   hid: fa18-523-65
   community: i523
+technologies:
+  - url: TBD 
+  - url: TBD 
+  - url: TBD 
+  - url: TBD 
 paper:
   - title: Natural language processing
     keyword: Language
