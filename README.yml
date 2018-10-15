@@ -5,10 +5,10 @@ owner:
   hid: fa18-523-65
   community: i523
 technologies:
-  - url: TBD 
-  - url: TBD 
-  - url: TBD 
-  - url: TBD 
+  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/cascading.md 
+  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/nimbus.md
+  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/kafka.md
+  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/sentry.md
 paper:
   - title: Natural language processing
     keyword: Language
