@@ -5,15 +5,7 @@
 | Indiana University, Bloomington
 | hid: fa18-523-67, fa18-523-65
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/paper/paper.md)
-
-
-## Team Members and work breakdown
-
-  - Sahithya Sridhar (fa18-523-67): Introduction, Natural language text processing,
-    Natural Language generation
-  - Prajakta Patil (fa18-523-65): Related Work, Applications of NLP, NLP in 
-    Yelp data review
-    
+ 
 ## Introduction
 
 Natural language processing (NLP) forms the link between machine language 
@@ -147,3 +139,10 @@ in NLP text processing:
 -	Certain techniques are too expensive
 -	Not very reliable as of now.
 -	Speech/text processing [@fa18-523-67-www-google-4].
+
+## Team Members and work breakdown
+
+  - Sahithya Sridhar (fa18-523-67): Introduction, Natural language text processing,
+    Natural Language generation
+  - Prajakta Patil (fa18-523-65): Related Work, Applications of NLP, NLP in 
+    Yelp data review
