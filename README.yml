@@ -4,6 +4,8 @@ owner:
   lastname: Patil
   hid: fa18-523-65
   community: i523
+  semester: fa18
+  
 technologies:
   - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/cascading.md 
   - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/nimbus.md
