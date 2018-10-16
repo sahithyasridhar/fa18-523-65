@@ -36,7 +36,7 @@ information is classified under the Natural language text processing.
 > "The central
 task for natural language text processing systems is the translation of
 potentially ambiguous natural language queries and texts into unambiguous
-internal representations on which matching, and retrieval can take place
+internal representations on which matching, and retrieval can take place"
 [@fa18-523-67-NLP-1].
 
 Past research concentrating on natural language text processing systems has been
