@@ -5,13 +5,6 @@
 | hid: fa18-523-65, fa18-523-67
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/project-report/report.md)
 
-
-## Project members and Work Breakdown
-
-Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset
-
-Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods
-
 ## Abstract
 Yelp is a search service with website that hosts reviews for businesses, mainly 
 restaurants, that are useful to people looking for one in a city. Our project 
@@ -111,3 +104,10 @@ from data.
   patterns in network. This can reveal how and if which type restaurant tends 
   to get higher/lower rating depending on its distance from downtown or 
   geographical location etc. 
+  
+## Project members and Work Breakdown
+
+Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset
+
+Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods
+
