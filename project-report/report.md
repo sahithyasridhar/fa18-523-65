@@ -41,6 +41,7 @@ hidden patterns present in this data. We use Tableau and Gephi to visualize the
 data which helps gain valuable insights and suggest what detail analysis might 
 be useful. Technologies used to perform analysis is Natural Language Processing 
 and Sentiment Analysis. 
+
 ## Literature review
 Li et al performed text analysis on Yelp reviews to study if they can be 
 categorized as ‘Useful’. This analysis was needed for businesses that don’t 
