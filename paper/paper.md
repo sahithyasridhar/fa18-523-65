@@ -140,6 +140,31 @@ in NLP text processing:
 -	Not very reliable as of now.
 -	Speech/text processing [@fa18-523-67-www-google-4].
 
+## Installation
+
+1. Install Python 3.6. (avoid the 64-bit versions)
+Install Numpy (optional):  (the version that specifies python3.5)
+
+2. Install NLTK: pip install nltk
+
+3. Test installation: ‘Start>Python35’, then type ‘import nltk’
+install the NLTK packages :
+import nltk
+nltk.download()
+
+## Example
+
+Tokenize:
+
+|                                                                                 |
+| ------------------------------------------------------------------------------- |
+| from nltk.tokenize import sent_tokenize, word_tokenize                          |
+| TEXT = "A quick brown fox jumps over the lazy dog”                              |
+| print(word_tokenize(TEXT))                                                      |
+
+ output: “A”, “quick”, “brown”, “fox”, “jumps”, “over”, “the”, “lazy”, “dog”.
+
+
 ## Team Members and work breakdown
 
   - Sahithya Sridhar (fa18-523-67): Introduction, Natural language text processing,
