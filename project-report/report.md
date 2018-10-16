@@ -20,9 +20,11 @@ ratings given by users to restaurants. This analysis can help users make better
 decisions by suggesting them to either just look at star ratings or go through 
 actual text reviews. We also looked for various patterns in the data to see 
 which factors affect reviews and ratings. 
+
 ## Keywords
 Yelp, Natural language processing (NLP), Sentiment analysis, Tableau, 
 Gephi, Scikit-learn
+
 ## Introduction
 Users visit Yelp website to either look for a restaurant or write a review for 
 one after their visit. Yelp had 148 million reviews on its website at the end 
