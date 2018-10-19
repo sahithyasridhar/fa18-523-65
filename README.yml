@@ -7,10 +7,10 @@ owner:
   semester: fa18
   
 technologies:
-  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/cascading.md 
-  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/nimbus.md
-  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/kafka.md
-  - url: https://github.com/PrajaktaRPatil/technologies/blob/master/chapters/tech/sentry.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/cascading.md 
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/nimbus.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/kafka.md
+  - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/sentry.md
 paper:
   - title: Natural language processing
     keyword: Language
