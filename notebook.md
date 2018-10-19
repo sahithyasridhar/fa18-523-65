@@ -26,3 +26,7 @@ Week Fri 08/31/18 - 09/06/18
 * Completed technology summaries
 * Wrote snapshot of the paper and project
 * Wached video lecture
+# Week Fri 10/12/18 - 10/18/18
+* Started working on project 
+* Added Example in NLP Paper as per Professor's feedback
+* Created new fork to resolve techonology summaries submission issue
