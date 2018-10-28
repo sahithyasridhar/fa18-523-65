@@ -30,3 +30,6 @@ Week Fri 08/31/18 - 09/06/18
 * Started working on project 
 * Added Example in NLP Paper as per Professor's feedback
 * Created new fork to resolve techonology summaries submission issue
+# Week Fri 10/19/18 - 10/25/18
+* Working on project- analysis of yelp reviews
+* Wached video lecture
