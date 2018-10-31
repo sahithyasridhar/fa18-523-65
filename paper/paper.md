@@ -148,19 +148,21 @@ Install Numpy (optional):  (the version that specifies python3.5)
 2. Install NLTK: pip install nltk
 
 3. Test installation: ‘Start>Python35’, then type ‘import nltk’
-install the NLTK packages :
+install the NLTK packages:
+
+```python
 import nltk
 nltk.download()
+```
 
 ## Example
 
 Tokenize:
 
-|                                                                                 |
-| ------------------------------------------------------------------------------- |
-| from nltk.tokenize import sent_tokenize, word_tokenize                          |
-| TEXT = "A quick brown fox jumps over the lazy dog”                              |
-| print(word_tokenize(TEXT))                                                      |
+```python
+from nltk.tokenize import sent_tokenize, word_tokenize
+line = "A quick brown fox jumps over the lazy dog"
+print(word_tokenize(line))
 
  output: “A”, “quick”, “brown”, “fox”, “jumps”, “over”, “the”, “lazy”, “dog”.
 
