@@ -163,9 +163,11 @@ Tokenize:
 from nltk.tokenize import sent_tokenize, word_tokenize
 line = "A quick brown fox jumps over the lazy dog"
 print(word_tokenize(line))
+```
 
- output: “A”, “quick”, “brown”, “fox”, “jumps”, “over”, “the”, “lazy”, “dog”.
-
+```
+output: “A”, “quick”, “brown”, “fox”, “jumps”, “over”, “the”, “lazy”, “dog”.
+```
 
 ## Team Members and work breakdown
 
