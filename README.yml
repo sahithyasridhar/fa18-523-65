@@ -5,7 +5,8 @@ owner:
   hid: fa18-523-65
   community: i523
   semester: fa18
-  
+profile:
+  - url: https://github.com/PrajaktaRPatil  
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/cascading.md 
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/nimbus.md
