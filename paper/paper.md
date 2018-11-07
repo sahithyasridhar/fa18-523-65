@@ -6,6 +6,8 @@
 | hid: fa18-523-65, fa18-523-67
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/paper/paper.md)
  
+:o: not yet reviewd
+
 ## Introduction
 
 Natural language processing (NLP) forms the link between machine language 
