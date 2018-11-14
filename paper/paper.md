@@ -10,8 +10,9 @@
 
 ## Introduction
 
->"The goal of NLP is to accomplish human-like language 
-processing"[@fa18-523-67-NLP-1].
+> "The goal of NLP is to accomplish human-like language 
+processing[@fa18-523-67-NLP-1]".
+
 Natural language processing (NLP) forms the link between machine language 
 (binary code) to natural languages (which we humans speak). It borrows elements
 from artificial intelligence, computer science and information engineering.
@@ -68,11 +69,13 @@ reviewed by many [@fa18-523-67-NLP-2].Some of the Terminologies used are:
 The various important terminologies of Natural Language Processing are: -
 * *Phonology-* refers to the systematic arrangement of sound. There are three 
   types of rules used here: 
-  >"-phonetic rules – for sounds within words; 
-    -phonemic rules – for variations of pronunciation when words are spoken 
+  
+  >"* *phonetic rules:* for sounds within words; 
+    * *phonemic rules:* for variations of pronunciation when words are spoken 
      together, and
-    -prosodic rules – for fluctuation in stress and intonation
+    * *prosodic rules:* for fluctuation in stress and intonation
      across a sentence [@fa18-523-67-NLP-1]"
+     
 * *Morphology-* comprises of nature of words where the different parts of the
   words represent smallest units. A word can be broken down into its 
   constituent morphemes to understand the meaning [@fa18-523-67-NLP-1].
@@ -88,9 +91,11 @@ The various important terminologies of Natural Language Processing are: -
   among word-level meanings in the sentence.
 *	*Discourse-* Focusses on properties of the text that convey meaning by making
   connections between component sentences.
+  
   >"Discourse/text structure recognition determines the functions of sentences in
     the text, which, in turn, adds to the meaningful representation of the text"
     [@fa18-523-67-NLP-3].
+    
 * *Pragmatic-* It is concerned with the firm use of the language.The main
    goal is the use of the context over the content of the text
    for understanding. This determines how extra word is read into
@@ -114,9 +119,11 @@ This happens in four phases:
 * *Symbolic Approach-* Performs deep analysis of linguistic phenomena based on 
    the human developed rules and lexicons.Logic or rule based systems and 
    semantic networks are good examples of symbolic approach.
+   
    >"Symbolic approaches have been used for a few decades in a variety of research
    areas and applications such as information extraction, text categorization, 
    ambiguity resolution, and lexical acquisition [@fa18-523-67-NLP-1]"
+   
 * *Statistical Approach-* Various mathematical techiques are used here. Observable 
    data is used mainly as evidence. Hidden markov model is a widely used
    statistical approach. This is used in speech recognition, parsing, statistical
