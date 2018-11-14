@@ -10,8 +10,8 @@
 
 ## Introduction
 
->"The goal of NLP as stated above is “to accomplish human-like language 
-processing"
+>"The goal of NLP is to accomplish human-like language 
+processing"[@fa18-523-67-NLP-1].
 Natural language processing (NLP) forms the link between machine language 
 (binary code) to natural languages (which we humans speak). It borrows elements
 from artificial intelligence, computer science and information engineering.
@@ -27,10 +27,10 @@ NLP was initially called NLU (Natural language understanding). A natural
 language understanding system will be used to paraphrase the input text,
 will be able to translate text into another language, analyse the content of
 the text and draw conclusions.As NLP still cannot draw inference from the text,
-it is still dependant on NLU.
-Based on the user's query and information need, NLP system represents the true
-meaning of what is expected. The content of the document will be searched 
-inorder to retrieve the relevant document based on the search query.
+it is still dependant on NLU. Based on the user's query and information need, 
+NLP system represents the true meaning of what is expected. The content of 
+the document will be searched inorder to retrieve the relevant document based 
+on the search query [@fa18-523-67-NLP-1].
 
 ## Natural language text processing
 
@@ -47,11 +47,13 @@ Natural language processing has two distinct focuses:
  language 
 * *Language generation:* language is produced from representation.This requires
  a planning capability. 
+ [@fa18-523-67-NLP-1]
 
 The text is manipulated for abstractions and indexed for automatic knowledge
 extraction. Producing text in a desirable format is one of the major research
 areas in NLP. structuring of large bodies of textual information to retrieve a
 information is classified under the Natural language text processing.
+[@fa18-523-67-NLP-1]
 > "The central
 task for natural language text processing systems is the translation of
 potentially ambiguous natural language queries and texts into unambiguous
@@ -70,18 +72,18 @@ The various important terminologies of Natural Language Processing are: -
     -phonemic rules – for variations of pronunciation when words are spoken 
      together, and
     -prosodic rules – for fluctuation in stress and intonation
-     across a sentence"
+     across a sentence [@fa18-523-67-NLP-1]"
 * *Morphology-* comprises of nature of words where the different parts of the
   words represent smallest units. A word can be broken down into its 
-  constituent morphemes to understand the meaning.
+  constituent morphemes to understand the meaning [@fa18-523-67-NLP-1].
 *	*Lexical-* Interprets the meaning of the sample word. Words that have only 
    one meanings is replaced by the semantic representation of a word. This 
-   requires the word to have a simple or a complex lexicon.
+   requires the word to have a simple or a complex lexicon [@fa18-523-67-NLP-1].
 *	*Syntactic-* Rectifies the grammatical mistakes in a sentence. The output 
    reveals a that has a structural dependancy between the words.Variours 
    grammars are used which inturn affects the choice of the parser.As the order 
    of the words convey different meanings syntax conveys meanings in most 
-   languages.
+   languages [@fa18-523-67-NLP-1].
 *	*Semantic-* determines the meaning of the word by pivoting on the interactions
   among word-level meanings in the sentence.
 *	*Discourse-* Focusses on properties of the text that convey meaning by making
@@ -97,6 +99,7 @@ The various important terminologies of Natural Language Processing are: -
    Current NLP system tends to implement those models that are used for 
    processing the lower levels as they have been well researched and implemented
    and also the apllications do not require them to process at the higher levels.
+   [@fa18-523-67-NLP-1]
 
 ## Natural Language generation
 
@@ -113,13 +116,14 @@ This happens in four phases:
    semantic networks are good examples of symbolic approach.
    >"Symbolic approaches have been used for a few decades in a variety of research
    areas and applications such as information extraction, text categorization, 
-   ambiguity resolution, and lexical acquisition"
+   ambiguity resolution, and lexical acquisition [@fa18-523-67-NLP-1]"
 * *Statistical Approach-* Various mathematical techiques are used here. Observable 
    data is used mainly as evidence. Hidden markov model is a widely used
    statistical approach. This is used in speech recognition, parsing, statistical
    grammar learning etc
 * *Connectionist-* Models are developed based on the linguistic phenomena. This 
    combines statistical model with other theories.
+   [@fa18-523-67-NLP-1]
 
 ## Related Work
 
@@ -183,7 +187,8 @@ containing 5000 reviews with the following info:
 *	ID of the posted review
 *	Date the review was posted
 *	The star rating provided.
-*	The text for the review [@fa18-523-67-www-google-3].
+*	The text for the review. 
+  [@fa18-523-67-www-google-3].
 
 NLTK library would be used to process the text and get basic information and
 insight on the data. The next step would be to visualize the data by utilizing
@@ -195,7 +200,8 @@ in NLP text processing:
 *	Scalability and potability
 *	Certain techniques are too expensive
 *	Not very reliable as of now.
-*	Speech/text processing [@fa18-523-67-www-google-4].
+*	Speech/text processing.
+[@fa18-523-67-www-google-4]
 
 ## Installation
 
