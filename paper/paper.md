@@ -74,7 +74,7 @@ The various important terminologies of Natural Language Processing are:
        * *phonemic rules:* for variations of pronunciation when words are spoken 
           together, and
        * *prosodic rules:* for fluctuation in stress and intonation
-          across a sentence [@fa18-523-67-NLP-1]"
+          across a sentence [@fa18-523-67-NLP-1]."
      
 * *Morphology:* comprises of nature of words where the different parts of the
   words represent smallest units. A word can be broken down into its 
@@ -92,9 +92,9 @@ The various important terminologies of Natural Language Processing are:
 *	*Discourse:* Focusses on properties of the text that convey meaning by making
   connections between component sentences.
   
-  >"Discourse/text structure recognition determines the functions of sentences in
-    the text, which, in turn, adds to the meaningful representation of the text"
-    [@fa18-523-67-NLP-3].
+     >"Discourse/text structure recognition determines the functions of sentences in
+       the text, which, in turn, adds to the meaningful representation of the text"
+       [@fa18-523-67-NLP-3].
     
 * *Pragmatic:* It is concerned with the firm use of the language.The main
    goal is the use of the context over the content of the text
