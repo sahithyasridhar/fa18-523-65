@@ -3,7 +3,7 @@
 | Sahithya Sridhar, Prajakta Patil
 | sahsrid@iu.edu, patilpr@iu.edu
 | Indiana University, Bloomington
-| hid: fa18-523-65, fa18-523-67
+| hid: fa18-523-67, fa18-523-65
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/paper/paper.md)
  
 :o: not yet reviewd
@@ -11,7 +11,7 @@
 ## Introduction
 
 > "The goal of NLP is to accomplish human-like language 
-processing[@www-liddy1998nlp]".
+processing [@www-liddy1998nlp]".
 
 Natural language processing (NLP) forms the link between machine language 
 (binary code) to natural languages (which we humans speak). It borrows elements
