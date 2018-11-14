@@ -66,11 +66,11 @@ internal representations on which matching, and retrieval can take place"
 Past research concentrating on natural language text processing systems has been
 reviewed by many [@fa18-523-67-NLP-2].Some of the Terminologies used are:
 
-The various important terminologies of Natural Language Processing are: -
-* *Phonology-* refers to the systematic arrangement of sound. There are three 
-  types of rules used here: 
-  
-  >"* *phonetic rules:* for sounds within words; 
+The various important terminologies of Natural Language Processing are: 
+
+ > "* *Phonology-* refers to the systematic arrangement of sound. There are three 
+         types of rules used here: 
+    * *phonetic rules:* for sounds within words; 
     * *phonemic rules:* for variations of pronunciation when words are spoken 
      together, and
     * *prosodic rules:* for fluctuation in stress and intonation
