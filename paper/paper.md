@@ -43,18 +43,19 @@ understand the language as we do. The trick is to break down the process of
 understanding English into smaller chunks and understanding each smaller piece
 separately [@www-sasnlp].
 
-Natural language processing has two distinct focuses:
+According to [@www-liddy1998nlp] Natural language processing has two distinct
+focuses:
 * *Language processing:* Produces a meaningful representation by analysing the 
  language 
 * *Language generation:* language is produced from representation.This requires
  a planning capability. 
- [@www-liddy1998nlp]
+ 
 
 The text is manipulated for abstractions and indexed for automatic knowledge
 extraction. Producing text in a desirable format is one of the major research
 areas in NLP. structuring of large bodies of textual information to retrieve a
-information is classified under the Natural language text processing.
-[@www-liddy1998nlp]
+information is classified under the Natural language text processing
+[@www-liddy1998nlp].
 > "The central
 task for natural language text processing systems is the translation of
 potentially ambiguous natural language queries and texts into unambiguous
@@ -103,16 +104,16 @@ The various important terminologies of Natural Language Processing are:
    
    Current NLP system tends to implement those models that are used for 
    processing the lower levels as they have been well researched and implemented
-   and also the apllications do not require them to process at the higher levels.
-   [@www-liddy1998nlp]
+   and also the apllications do not require them to process at the higher levels
+   [@www-liddy1998nlp].
 
 ## Natural Language generation
 
-This happens in four phases:
+According to [@www-khurana2017nlp] the NLP happens in four phases:
 *	Identifying the goal
 *	Evaluating the situation and planning to achieve the goal
 *	Evaluate the available resources.
-*	Execute the plans as text [@www-khurana2017nlp].
+*	Execute the plans as text.
 
 ## Approaches to NLP:
 
