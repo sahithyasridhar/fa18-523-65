@@ -41,7 +41,7 @@ and extract data from it. Take English language as an example. Humans have been
 writing down things for thousands of years but computers can’t yet truly
 understand the language as we do. The trick is to break down the process of
 understanding English into smaller chunks and understanding each smaller piece
-separately [[@www-sasnlp].
+separately [@www-sasnlp].
 
 Natural language processing has two distinct focuses:
 * *Language processing:* Produces a meaningful representation by analysing the 
