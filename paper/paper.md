@@ -64,39 +64,39 @@ internal representations on which matching, and retrieval can take place"
 ## Levels of NLP
 
 Past research concentrating on natural language text processing systems has been
-reviewed by many [@fa18-523-67-NLP-2].Some of the Terminologies used are:
-
+reviewed by many [@fa18-523-67-NLP-2].
 The various important terminologies of Natural Language Processing are: 
 
- > "* *Phonology-* refers to the systematic arrangement of sound. There are three 
+ * *Phonology:* refers to the systematic arrangement of sound. There are three 
          types of rules used here: 
-    * *phonetic rules:* for sounds within words; 
-    * *phonemic rules:* for variations of pronunciation when words are spoken 
-     together, and
-    * *prosodic rules:* for fluctuation in stress and intonation
-     across a sentence [@fa18-523-67-NLP-1]"
+         
+    > "* *phonetic rules:* for sounds within words; 
+       * *phonemic rules:* for variations of pronunciation when words are spoken 
+          together, and
+       * *prosodic rules:* for fluctuation in stress and intonation
+          across a sentence [@fa18-523-67-NLP-1]"
      
-* *Morphology-* comprises of nature of words where the different parts of the
+* *Morphology:* comprises of nature of words where the different parts of the
   words represent smallest units. A word can be broken down into its 
   constituent morphemes to understand the meaning [@fa18-523-67-NLP-1].
-*	*Lexical-* Interprets the meaning of the sample word. Words that have only 
+*	*Lexical:* Interprets the meaning of the sample word. Words that have only 
    one meanings is replaced by the semantic representation of a word. This 
    requires the word to have a simple or a complex lexicon [@fa18-523-67-NLP-1].
-*	*Syntactic-* Rectifies the grammatical mistakes in a sentence. The output 
+*	*Syntactic:* Rectifies the grammatical mistakes in a sentence. The output 
    reveals a that has a structural dependancy between the words.Variours 
    grammars are used which inturn affects the choice of the parser.As the order 
    of the words convey different meanings syntax conveys meanings in most 
    languages [@fa18-523-67-NLP-1].
-*	*Semantic-* determines the meaning of the word by pivoting on the interactions
+*	*Semantic:* determines the meaning of the word by pivoting on the interactions
   among word-level meanings in the sentence.
-*	*Discourse-* Focusses on properties of the text that convey meaning by making
+*	*Discourse:* Focusses on properties of the text that convey meaning by making
   connections between component sentences.
   
   >"Discourse/text structure recognition determines the functions of sentences in
     the text, which, in turn, adds to the meaningful representation of the text"
     [@fa18-523-67-NLP-3].
     
-* *Pragmatic-* It is concerned with the firm use of the language.The main
+* *Pragmatic:* It is concerned with the firm use of the language.The main
    goal is the use of the context over the content of the text
    for understanding. This determines how extra word is read into
    the text with the words encoded in the sentance[@fa18-523-67-NLP]. 
