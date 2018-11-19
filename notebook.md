@@ -33,3 +33,12 @@ Week Fri 08/31/18 - 09/06/18
 # Week Fri 10/19/18 - 10/25/18
 * Working on project- analysis of yelp reviews
 * Wached video lecture
+# Week Fri 10/26/18 - 11/01/18
+* Continued Working on project analysis
+* Watched video lecture
+# Week Fri 11/02/18 - 11/08/18
+* Continued work on project analysis
+* Started updating project report
+# Week Fri 11/09/18 - 11/16/18
+* Updated 2-page paper
+* Continued project analysis and updating report
