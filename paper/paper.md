@@ -120,7 +120,7 @@ According to [@www-khurana2017nlp] the NLP happens in four phases:
 According to [@www-liddy1998nlp] some approaches of NLP are as follows:
 
 * *Symbolic Approach-* Performs deep analysis of linguistic phenomena based on 
-   the human developed rules and lexicons.Logic or rule based systems and 
+   the human developed rules and lexicons. Logic or rule based systems and 
    semantic networks are good examples of symbolic approach.
    
    >"Symbolic approaches have been used for a few decades in a variety of research
@@ -178,6 +178,110 @@ of NLP are:
   Naïve Bayes, Memory based Learning, Support vector, Decision Trees,
   Maximum Entropy Model etc are used to detect the spams.This is very similar to 
   text categorization.
+  
+## Problems with natural language processing: linguistic variation and ambiguity 
+
+There are certain problems is natural language processing that reduce the efficacy 
+of textual information retireval. linguistic variation and ambiguity are some of 
+the problems in NLP. Linguistic variation is an issue when the same words or 
+expressions are used to communicate the idea. Multiple interpretations is the 
+main problem with Linguistic variation.Linguistic Variation provokes the 
+omission of certain documents that are relevant and Ambiguity implies when a 
+document has duplicate words or words that are not related [@www-mari2011nlp].
+
+* *Example 1: A notebook was the present that the teacher gave him, when we where
+present in the class.*
+
+Here the word "present" has different meanings both as an adjective and as a noun.
+The word present plays different morph-syntactic depending on the situation,
+causing ambiguity problems.
+
+* *Example 2: He ate food on the car.*
+
+Ambiguity is produced here again, as this sentence can have several meanings 
+like, he ate the food which was present in the car,or he ate food when he was 
+driving the car.
+
+* *Example 3: I went to the bank.*
+
+Here the bank could mean a place where save mony and transcations are made or
+a mound.
+
+These examples show that automated process is not easy and that how complex the
+language is.
+
+## Natural Language processing in textual information retrieval
+
+When the user gives a query the following task are performed as a part of 
+Natural Language processing's textual information retrieval:
+
+* Index is created for the descriptions of a document based on the NLP
+techniques.
+
+* When a query is given by a user the system analyses it and transforms it
+such that it is similar to what is represented in the document.
+
+* The description of each document is comapred by the system with the query
+given by the user, and those documents that have the description close to the 
+users query to retrieved.
+
+* The results are shown in the order of the similarity.
+[@www-mari2011nlp]
+
+## Statistical processing of natural language
+
+> "This is a very simple focus based on the "bag of words." In this approach,
+all words in a document are treated as its index terms. Moreover, each term is
+assigned a weight in function of its importance, usually determined by its 
+appearance frequency within the document. This way the word's order, structure,
+meaning, etc, are not taken into consideration [@www-mari2011nlp]."
+
+The document processing model involves document pre-processing and Parameterisation.
+
+* *Document pre-processing:* Prepares the documents by removing those elements that
+are superfluous.There are three basic phases here:
+
+   * Removing headers, tags etc from the document which are not for indexing.
+   * Standardising the text by checking for capitalized or non-capitalized
+   letters, numerals, dates etc.
+   * Stemming the terms by reducing the words to the roots.
+
+* *Parameterisation:* >"quantifying the document's characteristics
+ [@www-mari2011nlp]."
+
+   * Assigns weights to the  relevant terms present in the document.
+
+One of the most used methods to estimate the importance of a term is the TFIDF
+system (Term Frequency, Inverse Document Frequency).
+
+>"It is designed to calculate the importance of a term relative to its appearance
+frequency in a document, but as a function of the total appearance frequency for
+all of the corpus' documents. That is, the fact that a term appears often in one
+document is indicative that that term is representative of the content, but only
+when that term does not appear frequently in all documents. If it appeared frequently
+in all documents, it would not have any discriminatory value [@www-mari2011nlp]."
+
+Two commonly used techniques in statistical processing is:
+
+* *Detecting N-Grams:* This involves identifying compound words, proper nouns etc,
+to be able to process them as single words. This is done by determining the 
+probability of the compound words like European union etc.
+
+* *Stopword List:* A list of empty words, with very little semantic values.
+Deleting these terms avaids duplications and noise[@www-mari2011nlp].
+
+## Linguistic processing of natural language
+
+In the linguistic process, the words are determined to see how they are related
+and used together in making gramatical units , sentences etc. Parsers are 
+created and applied to demonstrate the text's syntax structure. The method used to 
+create the parser vary.
+To determine the semantic structure of the words certain tools are used. The most
+often used tool is the is the lexicographic database WordNet [@www-mari2011nlp].
+
+>"This is an annotated semantic lexicon in different languages made up of synonym
+groups called synsets which provide short definitions along with the different
+semantic relationships between synonym groups[@www-mari2011nlp]."
 
 ## NLP in Yelp data review
 
