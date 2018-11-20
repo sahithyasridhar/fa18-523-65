@@ -293,8 +293,8 @@ Another important step is Semantic analysis which helps interpret human
 sentences logically [@www-wikinlp]. 
 
 We shall turn our focus on how this powerful technique could be used to interpret
-restaurant reviews on Yelp through a sentiment analysis model. The goal of this
-paper is to predict whether a user liked a local business or not based on their
+restaurant reviews on Yelp through a sentiment analysis model. Here we will try to
+predict whether a user liked a local business or not based on their
 review on Yelp. A simple text classifier would be built based on Python’s Pandas,
 NLTK and Scikit-learn libraries. According to [@www-adam2018nlp], the plan would
 be to start with a dataset containing 5000 reviews with the following info:
@@ -340,7 +340,7 @@ data. By applying NLP techniques, we will be able to save a lot of time to
 the projects. But parsing the english langugae with a computer has its own
 complications.Hence with NLP we will breakdown the process of understanding 
 english, into small chunks and see how it performs in understanading and
-giving a correct output [@adam2018mediumnlp].
+giving a correct output [@www-adam2018nlp].
 
 Lets take a para: "Delhi is the capital of India and one of the
 most populous city in Asia. This has been a great settlement for several
@@ -349,11 +349,11 @@ kings including the Mughals. The original name was Indraprastha."
 This para contains several important and useful information. It would
 be great if a computer could read and understand that Delhi is a city in 
 India, It was ruled by Mughals etc. But to get there we have to train the 
-computer on how to read the sentence [@adam2018mediumnlp].
+computer on how to read the sentence [@www-adam2018nlp].
 
 A lot of information in english is unstructured. For a computer to 
 understand the text and extract data we need to do some of the following
-steps [@adam2018mediumnlp]:
+steps [@www-adam2018nlp]:
 
 * *Sentence Segmentation:*
 
@@ -400,7 +400,7 @@ different base forms.
 
 > "Lemmatization is typically done by having a look-up table of the lemma
 forms of words based on their part of speech and possibly having some custom
-rules to handle words that you’ve never seen before.[@adam2018mediumnlp]"
+rules to handle words that you’ve never seen before.[@www-adam2018nlp]"
 
 * *Identifying Stop Words:*
 
@@ -416,7 +416,7 @@ Here we determine how the words are related to each other.
 
 > "The goal is to build a tree that assigns a single parent word to each word
 in the sentence. The root of the tree will be the main verb in the sentence 
-[@adam2018mediumnlp]."
+[@www-adam2018nlp]."
 
 In addition to determining the parent word, the relation that exists between
 the word is also found out.
