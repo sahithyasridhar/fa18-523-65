@@ -16,13 +16,13 @@ processing [@www-liddy1998nlp]".
 Natural language processing (NLP) forms the link between machine language 
 (binary code) to natural languages (which we humans speak). It borrows elements
 from artificial intelligence, computer science and information engineering.
-Success of NLP is highly dependent on how one can successfully program computers,
-to process, analyze and interpret huge amounts of natural language data. Key
-challenges/opportunities in this inter-disciplinary field involves speech 
-recognition, language interpretation and generation of natural language from a
-machine representation. With NLP, it is possible for computers to read text, hear
-speech, interpret it, measure sentiment and determine which parts are important
-[@www-sasnlp].
+Success of NLP is highly dependent on how one can successfully program 
+computers, to process, analyze and interpret huge amounts of natural language 
+data. Key challenges/opportunities in this inter-disciplinary field involves 
+speech recognition, language interpretation and generation of natural language
+from a machine representation. With NLP, it is possible for computers to read
+text, hear speech, interpret it, measure sentiment and determine which parts
+are important [@www-sasnlp].
 
 NLP was initially called NLU (Natural language understanding). A natural
 language understanding system will be used to paraphrase the input text,
@@ -93,19 +93,19 @@ The various important terminologies of Natural Language Processing are:
 *	*Discourse:* Focusses on properties of the text that convey meaning by making
   connections between component sentences.
   
-     >"Discourse/text structure recognition determines the functions of sentences in
-       the text, which, in turn, adds to the meaningful representation of the text"
-       [@www-liddy1998nlp].
+  >"Discourse/text structure recognition determines the functions of sentences in
+    the text, which, in turn, adds to the meaningful representation of the text"
+    [@www-liddy1998nlp].
     
 * *Pragmatic:* It is concerned with the firm use of the language.The main
    goal is the use of the context over the content of the text
    for understanding. This determines how extra word is read into
    the text with the words encoded in the sentance[@www-chaudhary2003nlp]. 
    
-   Current NLP system tends to implement those models that are used for 
-   processing the lower levels as they have been well researched and implemented
-   and also the apllications do not require them to process at the higher levels
-   [@www-liddy1998nlp].
+Current NLP system tends to implement those models that are used for 
+processing the lower levels as they have been well researched and implemented
+and also the apllications do not require them to process at the higher levels
+[@www-liddy1998nlp].
 
 ## Natural Language generation
 
@@ -285,8 +285,8 @@ semantic relationships between synonym groups[@www-mari2011nlp]."
 
 ## NLP in Yelp data review
 
-The first step in NLP depends on the application. Voice based systems like Google
-Assistant or Alexa translates words into text using Hidden Markov Models. 
+The first step in NLP depends on the application. Voice based systems like 
+Google Assistant or Alexa translates words into text using Hidden Markov Models. 
 The language and context is then understood through a series of coded grammar
 rules that rely on algorithms that incorporate statistical machine learning. 
 Another important step is Semantic analysis which helps interpret human 
@@ -309,8 +309,8 @@ NLTK library would be used to process the text and get basic information and
 insight on the data. The next step would be to visualize the data by utilizing
 histogram grids for every star rating. The goal would be to identify which feature
 of the review is useful in finding correlations in the dataframe. Once we derive
-some useful correlations, they could be visualized.According to [@www-terence2018nlp]
-Challenges faced in NLP text processing are:
+some useful correlations, they could be visualized.According to
+[@www-terence2018nlp] Challenges faced in NLP text processing are:
 
 *	Scalability and potability
 *	Certain techniques are too expensive
@@ -331,6 +331,116 @@ install the NLTK packages:
 import nltk
 nltk.download()
 ```
+
+## Building a NLP pipeline
+
+It would be really helpful if a computer could understand what the humans 
+are trying to say. NLP helps the computer to read and understand all the 
+data. By applying NLP techniques, we will be able to save a lot of time to 
+the projects. But parsing the english langugae with a computer has its own
+complications.Hence with NLP we will breakdown the process of understanding 
+english, into small chunks and see how it performs in understanading and
+giving a correct output [@adam2018mediumnlp].
+
+Lets take a para: "Delhi is the capital of India and one of the
+most populous city in Asia. This has been a great settlement for several
+kings including the Mughals. The original name was Indraprastha."
+
+This para contains several important and useful information. It would
+be great if a computer could read and understand that Delhi is a city in 
+India, It was ruled by Mughals etc. But to get there we have to train the 
+computer on how to read the sentence [@adam2018mediumnlp].
+
+A lot of information in english is unstructured. For a computer to 
+understand the text and extract data we need to do some of the following
+steps [@adam2018mediumnlp]:
+
+* *Sentence Segmentation:*
+
+First step is breaking the text in the para into seperate sentences like:
+
+* "Delhi is the capital of India and one of the most populous city in Asia."
+
+* "This has been a great settlement for several kings including the Mughals."
+
+* "The original name was Indraprastha."
+
+By breaking the text in the para into small sentences it is easy for the 
+computer to read understand them. We can use NLP pipeline methods to read 
+the sentences and determine what it means.
+
+* *Word Tokenization:*
+
+Once we have broken the para into sentences, we can process individual 
+sentences. We can now break these sentences into eperate words or tokens.
+This is called "Tokenization"
+
+Eg: "Delhi", "is", "the", "capital", "of", "India", "and", "one", "of", 
+"the", "most", "populous", "city", "in", "Asia, "."
+Every word including punctuation is split apart.
+
+* *Predicting parts of speech:*
+
+Each token is taken individually and the part of speech for that token 
+is determined. Finding out if the word is a noun, verb etc helps to 
+determine what the sentence is about.
+Each word is fed into a part of speech classification model, which was 
+trained already by feeding in millions of english sentences to determine
+the words part of speech.
+
+Eg: Delhi is a noun and capital is a noun. So we can determine that the 
+sentence is probably about delhi
+
+* *Text Lemmatization:*
+
+There may be cases where a same word may appear in different forms. Text 
+Lemmatization helps to determine the base form of each word, so that it 
+will be easy to figure out that the words are the same if they where in 
+different base forms.
+
+> "Lemmatization is typically done by having a look-up table of the lemma
+forms of words based on their part of speech and possibly having some custom
+rules to handle words that you’ve never seen before.[@adam2018mediumnlp]"
+
+* *Identifying Stop Words:*
+
+There are lot of filler words like "a","the" etc. These words are called stop
+words. The stop words are considered a noise and are usually removed before 
+performing any statistical analysis.
+
+Eg: "Delhi", "capital", "India", "one", "most", "populous", "city", "Asia, "."
+
+* *Dependency Parsing:*
+
+Here we determine how the words are related to each other.
+
+> "The goal is to build a tree that assigns a single parent word to each word
+in the sentence. The root of the tree will be the main verb in the sentence 
+[@adam2018mediumnlp]."
+
+In addition to determining the parent word, the relation that exists between
+the word is also found out.
+
+* *Finding noun phrases:*
+
+The words that represent single idea is grouped together instead of considering
+every word as a single entity. The information from the dependancy parse
+tree is taken to group the related words together.
+
+Eg: By combining the non phrases from the sentance we get:
+
+"Delhi the capital most populous city ..."
+
+* *Named Entity Recognition:*
+
+The aim of Named Entity Recognition is to detect and label the nouns with 
+real world concepts.
+
+Eg: "Delhi", "India" and "Indraprastha" represent places on a map. With 
+Named Entity Recognitio we will be able to detect that on a map. 
+
+A Named Entity can Recognise peoples name, location, products, date and time,
+money etc.
 
 ## Example
 
