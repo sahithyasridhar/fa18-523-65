@@ -133,8 +133,7 @@ According to [@www-liddy1998nlp] some approaches of NLP are as follows:
    grammar learning etc
    
 * *Connectionist-* Models are developed based on the linguistic phenomena. This 
-   combines statistical model with other theories.
-   
+   combines statistical model with other theories. 
 
 ## Related Work
 
@@ -282,6 +281,51 @@ often used tool is the is the lexicographic database WordNet [@www-mari2011nlp].
 >"This is an annotated semantic lexicon in different languages made up of synonym
 groups called synsets which provide short definitions along with the different
 semantic relationships between synonym groups[@www-mari2011nlp]."
+
+## NLP for Big data
+
+Big data is most text based content which constantly growing and is mostly 
+unstructured. Every industry generates a large volume of text information.
+documents, notes, emails, patents, patient informations etc. As most of these
+are text based data that is generated, Natural language process for big data
+presents an opportunity to take advantage of the situation to reveal patterns,
+and trends [@www-huddle2017nlp].
+
+* *Interactions:* Interactive applications are becoming more and more common
+these days like microsoft's cortana, smart phone assistants, language 
+translation programs etc. These applications use natural language 
+processing.
+
+* *Business Intelligence:* Natural language process for big data enables the 
+user to retrive the documents that they are looking not limited by searching 
+for the documents with the exact keywords. NLP enables them to search using 
+their own words and tries to retrieve the documents with that search.
+
+* *Market Research:* With the growth of internet, social network is full 
+of rich, noisy information. The brands and organizations can determine what
+is said about their products and services by using the natural language 
+processing for their market research analysis.
+
+There are a lot of NLP libraries written, that helps in 
+processing the big data [@www-fedak2018nlp].
+Some of which are:
+
+* *CoreNLP:*  It was originally written in java that can also support 
+ multiple language like python. It is well known for its speed and its
+ precise results.
+ 
+* NLTK: Most commonly used NLP library. 
+> Natural language tool kit's (NLTK) modular structure helps comprehend
+the dependencies between components and get the firsthand experience with 
+composing appropriate models for solving certain tasks [@www-fedak2018nlp]."
+
+* *TextBlob:* Addition of components like sentiment analyzer becomes very 
+easy with Textblob.
+
+* *Gensim:* Used best for topic modeling and comparing the document 
+similarity
+
+* *Spacy:* It is a new library which has a very high performance.
 
 ## NLP in Yelp data review
 
