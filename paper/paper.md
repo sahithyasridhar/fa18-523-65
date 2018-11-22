@@ -8,9 +8,11 @@
  
 :o: not yet reviewd
 
-:o: your paper was one of the paper that motivated us to send out a mail on reminding people to read the FAQ and do prope rmarkdown format using for example empty lines wher ethey need to be
+:o: your paper was one of the paper that motivated us to send out a mail on reminding people to read the FAQ and do prope rmarkdown format using for example empty lines where they need to be. We hoped you would have read the FAQ and applied to your paper.
 
 :o: also makrdoen requires a space after >
+
+:o: please review rules on when to use would, will and is
 
 ## Introduction
 
@@ -28,6 +30,8 @@ from a machine representation.With NLP, it is possible for computers to read
 text, hear speech, interpret it, measure sentiment and determine which parts 
 are important [@www-sasnlp].
 
+:o: this does not belong in an abstract 
+
 NLP was initially called NLU (Natural language understanding). A natural
 language understanding system will be used to paraphrase the input text,
 will be able to translate text into another language, analyze the content of
@@ -37,22 +41,23 @@ if a certain word in a sentence is a noun or a verb. For example, word ‘leave�
 can be either a noun or a verb depending on context of sentence. 
 
 ## keywords
-Natural language process, Machine learning, Big Data, yelp data
+Natural language process :o: , Machine learning, Big Data, yelp data
 
 :o: does not follow our sample
 
 ## Purpose of Natural language processing 
 
-It is well known that quite a bit information which exists out in our world is
-very unstructured. The challenge would be to make a computer to understand this
-and extract data from it. Take English language as an example. Humans have been
-writing down things for thousands of years but computers can’t yet truly
+It is well known [:o: citation missing] that quite a bit information which exists out in our world is
+very unstructured. The challenge would (:o: grammar) be to make a computer to understand this
+and extract data from it. (:o grammar?) Take English language as an example. Humans have been
+writing down things for thousands of years but computers can’t (:o: no contrations see our FAQ) yet truly
 understand the language as we do. The trick is to break down the process of
 understanding English into smaller chunks and understanding each smaller piece
 separately [@www-sasnlp].
 
 According to [@www-liddy1998nlp] Natural language processing has two distinct
 focuses:
+
 * *Language processing:* Produces a meaningful representation by analyzing the 
  language. This is similar to a machine reading the text.
 * *Language generation:* language is produced from representation. This requires
@@ -63,6 +68,7 @@ extraction. Producing text in a desirable format is one of the major research
 areas in NLP. Structuring of large bodies of textual information to retrieve an
 information is classified under the Natural language text processing
 [@www-liddy1998nlp].
+
 > "The central
 task for natural language text processing systems is the translation of
 potentially ambiguous natural language queries and texts into unambiguous
@@ -72,12 +78,17 @@ internal representations on which matching, and retrieval can take place"
 ## Levels of NLP
 
 Past research concentrating on natural language text processing systems has been
-reviewed by many [@www-haas1996nlp].
+reviewed by many [@www-haas1996nlp]. :o: yet there is only one refernce?
 The various important terminologies of Natural Language Processing are: 
+
+:o: incosistent use of empty lines results in that markdown can not format properly and consistently
 
  * *Phonology:* Refers to the understanding of sound of individual words and
     groups of words when spoken together in a sentence of sound. There are three 
     types of rules used here: 
+    
+ :o: indntation wrong
+ 
   > "
     * *phonetic rules:* for sounds within words; 
     * *phonemic rules:* for variations of pronunciation when words are spoken 
@@ -306,13 +317,16 @@ are superfluous. There are three basic phases here:
    suffixes, prefixes etc.
 
 * *Parameterization:* Assigns weights to the relevant terms present in the document.
->"quantifying the document's characteristics
+
+:o: indentation wrong markdown is now confused
+
+> "quantifying the document's characteristics
  [@www-mari2011nlp]."
 
 One of the most used methods to estimate the importance of a term is the TFIDF
 system (Term Frequency, Inverse Document Frequency).
 
->"It is designed to calculate the importance of a term relative to its appearance
+> "It is designed to calculate the importance of a term relative to its appearance
 frequency in a document, but as a function of the total appearance frequency for
 all of the corpus' documents. That is, the fact that a term appears often in one
 document is indicative that that term is representative of the content, but only
@@ -345,21 +359,25 @@ significance between the results or not.
 
 ## Linguistic processing of natural language
 
-In the linguistic process, the words are determined to see how they are related
+In the linguistic process, the words are determined to see 
+
+:o: how can words see?
+
+how they are related
 and used together in making grammatical units, sentences etc. Parsers are 
 created and applied to demonstrate the text's syntax structure. The method used to 
 create the parser vary.
 To determine the semantic structure of the words certain tools are used. The most
 often used tool is the is the lexicographic database WordNet [@www-mari2011nlp].
 
->"This is an annotated semantic lexicon in different languages made up of synonym
+> "This is an annotated semantic lexicon in different languages made up of synonym
 groups called synsets which provide short definitions along with the different
 semantic relationships between synonym groups[@www-mari2011nlp]."
 
 ## NLP for Big data
 
 Big data is most text based content which constantly growing and is mostly 
-unstructured. Every industry generates a large volume of text information.
+unstructured (:o: grammar). Every industry generates a large volume of text information.
 documents, notes, emails, patents, patient informations etc. As most of these
 are text based data that is generated, Natural language process for big data
 presents an opportunity to take advantage of the situation to reveal patterns,
@@ -380,13 +398,13 @@ of rich, noisy information. The brands and organizations can determine what
 is said about their products and services by using the natural language 
 processing for their market research analysis.
 
-There are a lot of NLP libraries written, that helps in 
+There are a lot of NLP libraries written, that helps (:o: grammar) in 
 processing the big data [@www-fedak2018nlp].
 Some of which are:
 
 * *CoreNLP:*  It was originally written in java that can also support 
  multiple language like python. It is well known for its speed and its
- precise results.
+ precise results [:o:].
  
 * NLTK: Most commonly used NLP library. 
 > Natural language tool kit's (NLTK) modular structure helps comprehend
@@ -394,14 +412,16 @@ the dependencies between components and get the firsthand experience with
 composing appropriate models for solving certain tasks [@www-fedak2018nlp]."
 
 * *TextBlob:* Addition of components like sentiment analyzer becomes very 
-easy with Textblob.
+easy with Textblob [:o:].
 
 * *Gensim:* Used best for topic modeling and comparing the document 
-similarity
+similarity [:o:]
 
-* *Spacy:* It is a new library which has a very high performance.
+* *Spacy:* It is a new library which has a very high performance [:o:].
 
 ## NLP in Yelp data review
+
+:o: What is yelp introductory paragraph incomplete
 
 The first step in NLP depends on the application. Voice based systems like 
 Google Assistant or Alexa translates words into text using Hidden Markov Models. 
@@ -410,10 +430,15 @@ rules that rely on algorithms that incorporate statistical machine learning.
 Another important step is Semantic analysis which helps interpret human 
 sentences logically [@www-wikinlp]. 
 
-We shall turn our focus on how this powerful technique could be used to interpret
+We shall turn our focus on how this powerful 
+
+:o: who claims it is powerful
+
+technique could be used to interpret
 restaurant reviews on Yelp through a sentiment analysis model. Here we will try to
 predict whether a user liked a local business or not based on their
-review on Yelp. A simple text classifier would be built based on Python’s Pandas,
+review on Yelp. A simple text classifier would (:o: grammar)
+be built based on Python’s Pandas,
 NLTK and Scikit-learn libraries. According to [@www-adam2018nlp], the plan would
 be to start with a dataset containing 5000 reviews with the following info:
 
@@ -437,6 +462,10 @@ some useful correlations, they could be visualized. According to
 
 ## Installation
 
+:o: why use an old version of python, why can we not use python 3.7
+
+:o: why are you contardicting yourslef in the next sentence and than use python 3.5
+
 1. Install Python 3.6. (avoid the 64-bit versions)
 Install Numpy (optional):  (the version that specifies python3.5)
 
@@ -444,6 +473,8 @@ Install Numpy (optional):  (the version that specifies python3.5)
 
 3. Test installation: ‘Start>Python35’, then type ‘import nltk’
 install the NLTK packages:
+
+:o: now you show us you use 3.5 yet you ask the user to use 3.6
 
 ```python
 import nltk
@@ -462,14 +493,18 @@ giving a correct output [@www-adam2018nlp].
 
 Let's take a paragraph: "Delhi is the capital of India and one of the
 most populous city in Asia. This has been a great settlement for several
-kings including the Mughals. The original name was Indraprastha."
+kings including the Mughals. The original name was Indraprastha." :o: if quotes are used they must be followed with a citation, otherwise you use italics
 
 This paragraph contains several important and useful information. It would
 be great if a computer could read and understand that Delhi is a city in 
 India, it was ruled by Mughals etc. But to get there we have to train the 
 computer on how to read the sentence [@www-adam2018nlp].
 
-A lot of information in English is unstructured. For a computer to 
+A lot of information in English is unstructured. 
+
+:o: you repeat yourself?
+
+For a computer to 
 understand the text and extract data we need to do some of the following
 steps [@www-adam2018nlp]:
 
@@ -492,6 +527,7 @@ the sentences and determine what it means.
 Once we have broken the paragraph into sentences, we can process individual 
 sentences. We can now break these sentences into separate words or tokens.
 This is called "Tokenization"
+
 ```
 Eg: "Delhi", "is", "the", "capital", "of", "India", "and", "one", "of", 
 "the", "most", "populous", "city", "in", "Asia, "."
@@ -500,12 +536,15 @@ Every word including punctuation is split apart.
 
 * *Predicting parts of speech:*
 
+:o: indentation again wrong you again confuse markdown
+
 Each token is taken individually and the part of speech for that token 
 is determined. Finding out if the word is a noun, verb etc. helps to 
 determine what the sentence is about.
 Each word is fed into a part of speech classification model, which was 
 trained already by feeding in millions of English sentences to determine
 the words part of speech.
+
 ```
 Eg: Delhi is a noun and capital is a noun. So we can determine that the 
 sentence is probably about Delhi
@@ -526,6 +565,7 @@ rules to handle words that you’ve never seen before.[@www-adam2018nlp]"
 There are lot of filler words like "a", "the" etc. These words are called stop
 words. The stop words are considered a noise and are usually removed before 
 performing any statistical analysis.
+
 ```
 Eg: "Delhi", "capital", "India", "one", "most", "populous", "city", "Asia, "."
 ```
