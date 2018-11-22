@@ -39,6 +39,8 @@ can be either a noun or a verb depending on context of sentence.
 ## keywords
 Natural language process, Machine learning, Big Data, yelp data
 
+:o: does not follow our sample
+
 ## Purpose of Natural language processing 
 
 It is well known that quite a bit information which exists out in our world is
