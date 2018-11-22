@@ -72,8 +72,8 @@ The various important terminologies of Natural Language Processing are:
  * *Phonology:* Refers to the understanding of sound of individual words and
     groups of words when spoken together in a sentence of sound. There are three 
     types of rules used here: 
-         
- > "* *phonetic rules:* for sounds within words; 
+  > "
+    * *phonetic rules:* for sounds within words; 
     * *phonemic rules:* for variations of pronunciation when words are spoken 
           together, and
     * *prosodic rules:* for fluctuation in stress and intonation
@@ -84,6 +84,7 @@ The various important terminologies of Natural Language Processing are:
    constituent morphemes to understand the meaning [@www-liddy1998nlp].
    This involves understanding suffixes/prefixes attached to words, whether
    the word is singular or plural, root of words.
+   
 *	*Lexical:* Interprets the meaning of the sample word. Words that have only 
    one meanings is replaced by the semantic representation of a word. This 
    requires the word to have a simple or a complex lexicon [@www-liddy1998nlp].
@@ -92,9 +93,11 @@ The various important terminologies of Natural Language Processing are:
    Variours grammars are used which in turn affects the choice of the parser.
    As the order  of the words convey different meanings syntax conveys meanings
    in most languages [@www-liddy1998nlp].
+   
 *	*Semantic:* Determines the meaning of the word by looking at the interactions
    among word-level meanings in the sentence. Example of this would be trying to
-   understand if word ‘honey’ is used as noun or adjective in given sentence
+   understand if word ‘honey’ is used as noun or adjective in given sentence.
+   
 *	*Discourse:* Focusses on properties of the text that convey meaning by making
    connections between component sentences. This helps understand what part of 
    story are certain set of sentences conveying.
@@ -119,11 +122,14 @@ and also the applications do not require them to process at the higher levels
 According to [@www-khurana2017nlp]this part of NLP happens in four phases:
 *	*Identifying the goal:* Meaning, defining if we want to generate language
    in form of written text or spoken words
+   
 *	*Evaluating the situation and planning to achieve the goal:* This involves
-   identifying how said goal can be achieved by breaking it in individual tasks
+   identifying how said goal can be achieved by breaking it in individual tasks.
+   
 *	*Evaluate the available resources:* Depending on whether we want to generate
    written text or spoken words, we must evaluate if this can be achieved with 
    current communication devices. 
+   
 *	Execute the plans as text.
 
 ## Approaches to NLP:
@@ -223,22 +229,22 @@ expressions are used to communicate the idea. Multiple interpretations is the
 main problem with Linguistic variation. Linguistic Variation provokes the 
 omission of certain documents that are relevant and Ambiguity implies when a 
 document has duplicate words or words that are not related [@www-mari2011nlp].
-
-* *Example 1: A notebook was the present that the teacher gave him, when we were
-present in the class.*
-
+```
+Example 1: A notebook was the present that the teacher gave him, when we were
+present in the class.
+```
 Here the word "present" has different meanings both as an adjective and as a noun.
 The word present plays different morph-syntactic depending on the situation,
 causing ambiguity problems.
-
-* *Example 2: He ate food on the car.*
-
+```
+Example 2: He ate food on the car.
+```
 Ambiguity is produced here again, as this sentence can have several meanings 
 like, he ate the food which was present in the car, or he ate food when he was 
 driving the car.
-
-* *Example 3: I went to the bank.*
-
+```
+Example 3: I went to the bank.
+```
 Here the bank could mean a place where save money and transactions are made or
 a mound.
 
@@ -293,10 +299,9 @@ are superfluous. There are three basic phases here:
    * Stemming the terms by reducing the words to the roots.This operation removes
    suffixes, prefixes etc.
 
-* *Parameterization:* >"quantifying the document's characteristics
+* *Parameterization:* Assigns weights to the relevant terms present in the document.
+>"quantifying the document's characteristics
  [@www-mari2011nlp]."
-
-   * Assigns weights to the  relevant terms present in the document.
 
 One of the most used methods to estimate the importance of a term is the TFIDF
 system (Term Frequency, Inverse Document Frequency).
