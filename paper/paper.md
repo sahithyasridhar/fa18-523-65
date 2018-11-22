@@ -9,10 +9,11 @@
 :o: not yet reviewd
 
 :o: your paper was one of the paper that motivated us to send out a mail on reminding people to read the FAQ and do prope rmarkdown format using for example empty lines where they need to be. We hoped you would have read the FAQ and applied to your paper.
+-(made changes)
 
-:o: also makrdoen requires a space after >
+:o: also makrdoen requires a space after > (made changes)
 
-:o: please review rules on when to use would, will and is
+:o: please review rules on when to use would, will and is (made changes)
 
 ## Introduction
 
