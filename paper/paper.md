@@ -217,7 +217,7 @@ Question Answering etc. Some more applications of NLP are:
   phrase from one language to another with the help of engines like google
   translate. The major challenge in machine translation is keeping the meaning and
   the grammatical structure of the translated language intact [@www-khurana2017nlp].
-* ****Text categorization:*** Splitting the large volume of data into several categories.
+* **Text categorization:** Splitting the large volume of data into several categories.
   Example spam filters. This usually works by either looking at email subject, content
   or sender blacklisted by receiver. It is also used to categorize communication so as
   to forward them to appropriate department when used in business setting
@@ -241,16 +241,22 @@ expressions are used to communicate the idea. Multiple interpretations is the
 main problem with Linguistic variation. Linguistic Variation provokes the 
 omission of certain documents that are relevant and Ambiguity implies when a 
 document has duplicate words or words that are not related [@www-mari2011nlp].
+
 *Example 1: A notebook was the present that the teacher gave him, when we were
 present in the class.*
+
 Here the word *present* has different meanings both as an adjective and as a noun.
 The word present plays different morph-syntactic depending on the situation,
 causing ambiguity problems.
+
 *Example 2: He ate food on the car.*
+
 Ambiguity is produced here again, as this sentence can have several meanings 
 like, he ate the food which was present in the car, or he ate food when he was 
 driving the car.
+
 *Example 3: I went to the bank.*
+
 Here the *bank* could mean a place where save money and transactions are made or
 a mound.
 
