@@ -33,7 +33,7 @@ are important [@www-sasnlp].
 
 ---
 
-keywords: Natural language process :o: , Machine learning, Big Data, yelp data
+keywords: Natural language processing, Machine learning, Big Data, Yelp data
 
 ---
 
@@ -50,7 +50,7 @@ if a certain word in a sentence is a noun or a verb. For example, word *leave*
 can be either a noun or a verb depending on context of sentence [@www-sasnlp]. 
 
 It is well known [@www-sasnlp] that quite a bit of information which exists out 
-in our world is very unstructured. The challenge is be to make a computer understand
+in our world is very unstructured. The challenge is to make a computer understand
 this and extract data from it. Humans have been writing down things for thousands of 
 years but computers cannot yet truly understand the language as we do. The trick is 
 to break down the process of understanding English into smaller chunks and understanding 
@@ -115,7 +115,7 @@ meanings in most languages [@www-liddy1998nlp].
 
 Determines the meaning of the word by looking at the interactions among word-level meanings 
 in the sentence. Example of this would be trying to understand if word *honey* is used as 
-noun or adjective in given sentence[@www-liddy1998nlp].
+noun or adjective in given sentence [@www-liddy1998nlp].
 
 ### Pragmatic
 
@@ -182,7 +182,7 @@ Significant research has been done on natural language processing since 1940s.
 This has resulted in development of tools such as Sentiment Analyzer, Parts of
 Speech Taggers, Emotion Detection, Semantic Role Labelling etc. Development of
 such tools has allowed this technology to create real world applications such as 
-Google search, Apple’s Siri, Amazon’s Alexa etc. Applications such as these has 
+Google search, Apple’s Siri, Amazon’s Alexa etc. Applications such as these have 
 further increased interest in NLP as a useful research topic [@www-liddy1998nlp].
 
 Researchers working on NLP, building tools and systems which makes NLP what it
@@ -278,7 +278,7 @@ Natural Language processing's textual information retrieval
   such that it is similar to what is represented in the document.
 * The description of each document is compared by the system with the query
   given by the user, and those documents that have the description close to the 
-  users query to retrieved. There are different methods used to perform job of 
+  users query are retrieved. There are different methods used to perform job of 
   matching a query and document. Boolean method does this by trying to do exact 
   match. Vector space model converts query and documents in vectors that can be 
   stored as matrices. It then finds similarity by calculating cosine angle between 
@@ -303,7 +303,7 @@ The document processing model involves document pre-processing and Parameterizat
   * Removing headers, tags etc. from the document which are not for indexing.
   *	Tokenization splits text into sentences and sentences into words
   * Standardizing  the text by checking for capitalized or non-capitalized
-    letters, numerals, dates etc.Making all words lowercase helps treat words 
+    letters, numerals, dates etc. Making all words lowercase helps treat words 
     such as ‘Hi’ and ‘HI’ same. 
   * Stemming the terms by reducing the words to the roots.This operation removes
     suffixes, prefixes etc.
@@ -329,7 +329,7 @@ Two commonly used techniques in statistical processing are:
   not maintain order of words.
 
 * **Stopword List:** A list of empty words, with very little semantic values.
-  Deleting these terms avoids duplications and noise[@www-mari2011nlp].
+  Deleting these terms avoids duplications and noise [@www-mari2011nlp].
 
 Statistical evaluation in NLP systems is used to evaluate the efficiency,
 accuracy and robustness. It can be done using below methods that do it in different 
@@ -355,7 +355,7 @@ often used tool is the is the lexicographic database WordNet [@www-mari2011nlp].
 
 > "This is an annotated semantic lexicon in different languages made up of synonym
 > groups called synsets which provide short definitions along with the different
-> semantic relationships between synonym groups[@www-mari2011nlp]."
+> semantic relationships between synonym groups [@www-mari2011nlp]."
 
 ## NLP for Big data
 
@@ -367,7 +367,7 @@ presents an opportunity to take advantage of the situation to reveal patterns,
 and trends [@www-huddle2017nlp].
 
 * **Interactions:** Interactive applications are becoming more and more common
-  these days like microsoft's cortana, smart phone assistants, language 
+  these days like Microsoft's Cortana, smart phone assistants, language 
   translation programs etc. These applications use natural language processing.
 * **Business Intelligence:** Natural language process for big data enables the 
   user to retrive the documents that they are looking not limited by searching 
