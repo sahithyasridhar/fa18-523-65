@@ -15,7 +15,11 @@
 
 :o: please review rules on when to use would, will and is (made changes)
 
-## Introduction
+---
+
+keywords: Natural language processing, Machine learning, Big Data, Yelp data
+
+---
 
 > "The goal of NLP is to accomplish human-like language processing 
 [@www-liddy1998nlp]".
@@ -31,13 +35,7 @@ from a machine representation. With NLP, it is possible for computers to read
 text, hear speech, interpret it, measure sentiment and determine which parts 
 are important [@www-sasnlp].
 
----
-
-keywords: Natural language processing, Machine learning, Big Data, Yelp data
-
----
-
-:o: does not follow our sample
+:o: does not follow our sample (made changes)
 
 ## Purpose of Natural language processing 
 
