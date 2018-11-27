@@ -6,15 +6,6 @@
 | hid: fa18-523-67, fa18-523-65
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/paper/paper.md)
  
-:o: not yet reviewd
-
-:o: your paper was one of the paper that motivated us to send out a mail on reminding people to read the FAQ and do prope rmarkdown format using for example empty lines where they need to be. We hoped you would have read the FAQ and applied to your paper.
--(made changes)
-
-:o: also makrdoen requires a space after > (made changes)
-
-:o: please review rules on when to use would, will and is (made changes)
-
 ---
 
 keywords: Natural language processing, Machine learning, Big Data, Yelp data
@@ -34,8 +25,6 @@ speech recognition, language interpretation and generation of natural language
 from a machine representation. With NLP, it is possible for computers to read 
 text, hear speech, interpret, measure sentiment and determine which parts 
 are important [@www-sasnlp].
-
-:o: does not follow our sample (made changes)
 
 ## Purpose of Natural language processing 
 
@@ -72,14 +61,11 @@ an information is classified under the natural language text processing
 > "The central task for natural language text processing systems is the
 > translation of potentially ambiguous natural language queries and texts into 
 > unambiguous internal representations, on which matching and retrieval can 
->take place [@www-liddy1998nlp]".
+> take place [@www-liddy1998nlp]".
 
 ## Levels of NLP
 
 The various important terminologies of NLP are: 
-
-:o: incosistent use of empty lines results in that markdown can not format properly
-and consistently (made changes)
 
 ### Phonology
 
@@ -372,7 +358,7 @@ database WordNet [@www-mari2011nlp].
 
 > "This is an annotated semantic lexicon in different languages made up of
 > synonym groups called synsets which provide short definitions along with
-the different semantic relationships between synonym groups [@www-mari2011nlp].
+> the different semantic relationships between synonym groups [@www-mari2011nlp].
 
 ## NLP for Big data
 
