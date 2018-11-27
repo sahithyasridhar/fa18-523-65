@@ -79,7 +79,7 @@ an information is classified under the natural language text processing
 The various important terminologies of NLP are: 
 
 :o: incosistent use of empty lines results in that markdown can not format properly
-and consistently
+and consistently (made changes)
 
 ### Phonology
 
