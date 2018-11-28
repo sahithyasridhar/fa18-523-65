@@ -188,7 +188,7 @@ We grouped our data by star rating. Confusion matrix thus created is shown in
 form of heatmap in Fig. 2. We can see that ‘useful’ and ‘funny’ is correlated
 with text length. ‘cool’ and ‘subjectivity’ are correlated to polarity.
 
-fig 2
+![Fig. 2. correlation heat map](images/Fig 2.PNG){#fig:fig2}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
 states. Shown in Fig. 3, we see Arizona is the state with most reviews for 
@@ -205,6 +205,11 @@ Sunday and Friday. Monday and Tuesday saw lowest number of checkins for business
 
 Insert Fig. 3, 4, 5 and 6 here.
 
+![Fig. 3.](images/Fig 3.PNG){#fig:fig3}
+![Fig. 4.](images/Fig 4.PNG){#fig:fig4}
+![Fig. 5.](images/Fig 5.PNG){#fig:fig5}
+![Fig. 6.](images/Fig 6.PNG){#fig:fig6}
+
 We used pandas’ ‘groupby’ function to calculate mean star ratings for businesses.
 For purpose of this project we decided to look at details of restaurants only. 
 Fig. 7 shows top rated restaurants with descending average descending star rating.
@@ -214,7 +219,7 @@ dominated by restaurants that serve pizza and burger. One other thing to notice 
 that most of these restaurants are franchises. However, regional franchises have 
 higher star ratings than ones that have pan US presence.
 
-Insert Fig. 7 here.
+![Fig. 7.](images/Fig 7.PNG){#fig:fig7}
 
 Fig. 8 shows distribution of ratings offered to businesses. We see that rating 5 
 was most used rating by reviewers for describing their experience at given restaurant.
@@ -225,7 +230,9 @@ However, comparing Fig. 9 with Fig. 8 shows same trend. Meaning more restaurants
 of reviews given by users. We can see in Fig. 10 that most users provided less than
 5 reviews. There is small percentage of users who have provided more than 30 reviews.
 
-Insert Fig. 8, 9 and 10 here.
+![Fig. 8.](images/Fig 8.PNG){#fig:fig8}
+![Fig. 9.](images/Fig 9.PNG){#fig:fig9}
+![Fig. 10.](images/Fig 10.PNG){#fig:fig10}
 
 We were interested in seeing usage of words to describe user experience about a certain
 place. We chose 11 words that we thought could have been most used in reviews. This list
@@ -233,7 +240,7 @@ covered words that help express both positive and negative emotions. Fig. 11 sho
 word ‘great’ was used a lot by users to describe positive experience. Word ‘bad’ was 
 used mostly to describe negative experience.
 
-Insert Fig. 11 here.
+![Fig. 11.](images/Fig 11.PNG){#fig:fig11}
 
 ## Discussion
 
