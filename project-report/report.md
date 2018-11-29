@@ -187,7 +187,8 @@ We grouped our data by star rating. Confusion matrix thus created is shown in
 form of heatmap in Fig. 2. We can see that ‘useful’ and ‘funny’ is correlated
 with text length. ‘cool’ and ‘subjectivity’ are correlated to polarity.
 
-![Correlation Heat map](images/Fig 2.png){#fig:fig2}
+![Fig. 1](images/Fig. 1.png)
+{#fig:Fig. 1}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
 states. Shown in Fig. 3, we see Arizona is the state with most reviews for 
