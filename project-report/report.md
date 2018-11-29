@@ -210,8 +210,11 @@ Sunday and Friday. Monday and Tuesday saw lowest number of checkins for business
 Insert Fig. 3, 4, 5 and 6 here.
 
 ![Fig.3](images/Fig.3.PNG){#fig:fig3}
+
 ![Fig.4](images/Fig.4.PNG){#fig:fig4}
+
 ![Fig.5](images/Fig.5.PNG){#fig:fig5}
+
 ![Fig.6](images/Fig.6.PNG){#fig:fig6}
 
 We used pandas’ ‘groupby’ function to calculate mean star ratings for businesses.
@@ -235,7 +238,9 @@ of reviews given by users. We can see in Fig. 10 that most users provided less t
 5 reviews. There is small percentage of users who have provided more than 30 reviews.
 
 ![Fig.8](images/Fig.8.PNG){#fig:fig8}
+
 ![Fig.9](images/Fig.9.PNG){#fig:fig9}
+
 ![Fig.10](images/Fig.10.PNG){#fig:fig10}
 
 We were interested in seeing usage of words to describe user experience about a certain
