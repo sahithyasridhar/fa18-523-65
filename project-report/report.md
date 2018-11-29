@@ -131,6 +131,10 @@ and ‘funny’ has negative correlation with review emotions. This is likely be
 might have used ironic language while providing review for a business. All results for 
 linear regression analysis are shown in Table. 1. 
 
+![Fig.1](images/Fig.1.PNG)
+{#fig:Fig.1}
+
+
 **Table. 1 Correlation between review sentiment and star rating and review class**
 
 | Polarity (Review Sentiment)| Correlation coefficient-r value | p value |               
@@ -187,8 +191,8 @@ We grouped our data by star rating. Confusion matrix thus created is shown in
 form of heatmap in Fig. 2. We can see that ‘useful’ and ‘funny’ is correlated
 with text length. ‘cool’ and ‘subjectivity’ are correlated to polarity.
 
-![Fig.1](images/Fig.1.PNG)
-{#fig:Fig.1}
+![Fig.2](images/Fig.2.PNG)
+{#fig:Fig.2}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
 states. Shown in Fig. 3, we see Arizona is the state with most reviews for 
