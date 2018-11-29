@@ -22,11 +22,6 @@ are not so well correlated with textual reviews. This analysis can help users
 make better decisions by suggesting them to either just look at star ratings 
 or go through actual text reviews.
 
-## Keywords
-
-Yelp, Natural language processing (NLP), Sentiment analysis, Tableau, 
-Gephi, Scikit-learn
-
 ## Introduction
 
 Users visit Yelp website to either look for a restaurant or write a review for 
