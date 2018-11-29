@@ -130,8 +130,7 @@ and ‘funny’ has negative correlation with review emotions. This is likely be
 might have used ironic language while providing review for a business. All results for 
 linear regression analysis are shown in Table. 1. 
 
-![Fig.1](images/Fig.1.PNG)
-{#fig:Fig.1}
+![Fig.1 :o:](images/Fig.1.PNG){#fig:Fig.1}
 
 
 **Table. 1 Correlation between review sentiment and star rating and review class**
@@ -190,8 +189,7 @@ We grouped our data by star rating. Confusion matrix thus created is shown in
 form of heatmap in Fig. 2. We can see that ‘useful’ and ‘funny’ is correlated
 with text length. ‘cool’ and ‘subjectivity’ are correlated to polarity.
 
-![Fig.2](images/Fig.2.PNG)
-{#fig:Fig.2}
+![Fig.2 :o:](images/Fig.2.PNG){#fig:Fig.2}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
 states. Shown in Fig. 3, we see Arizona is the state with most reviews for 
@@ -206,9 +204,11 @@ which weekday was preferred by users to go out and hence provide reviews for the
 businesses. Fig. 6 shows that most users liked to go out on Saturday followed by 
 Sunday and Friday. Monday and Tuesday saw lowest number of checkins for businesses.
 
-Insert Fig. 3, 4, 5 and 6 here.
+Insert :o: Fig. 3, 4, 5 and 6 here.
 
-![Fig.3](images/Fig.3.PNG){#fig:fig3}
+:o: please revie our sample on how to refer to images
+
+![Fig.3 :o:](images/Fig.3.PNG){#fig:fig3}
 
 ![Fig.4](images/Fig.4.PNG){#fig:fig4}
 
@@ -273,6 +273,6 @@ one of most liked places.
 
 ## Project members and Work Breakdown
 
-Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset
-Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods
+* Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset
+* Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods
 
