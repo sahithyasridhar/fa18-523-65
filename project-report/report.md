@@ -1,5 +1,6 @@
 # Data analysis Of Yelp reviews :hand: fa18-523-65, fa18-523-67
-|Prajakta Patil, Sahithya Sridhar 
+
+| Prajakta Patil, Sahithya Sridhar 
 | patilpr@iu.edu, sahsrid@iu.edu
 | Indiana University, Bloomington
 | hid: fa18-523-65, fa18-523-67
@@ -10,6 +11,9 @@
 Keywords: Yelp, Natural language processing (NLP), Sentiment analysis, Scikit-learn
 
 ---
+
+:o: punctuation errors prevent us to kone which sentence your refernces belong to
+please review plagarizm rules.
 
 ## Abstract
 
