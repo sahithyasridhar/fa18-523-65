@@ -133,13 +133,12 @@ linear regression analysis are shown in Table. 1.
 
 **Table. 1 Correlation between review sentiment and star rating and review class**
 
-|      Polarity      | Correlation coefficient | p value |
-| (Review Sentiment) |      - r value          |         |                    
-|--------------------|-------------------------|---------| 
-| Star Rating        |  0.61                   | <0.001  |
-| Useful             | -0.064                  | <0.001  |  
-| Funny              | -0.043                  | 3.97    |
-| Cool               | -0.011                  | 3.66    |
+| Polarity (Review Sentiment)| Correlation coefficient-r value | p value |               
+|----------------------------|---------------------------------|---------| 
+| Star Rating                |  0.61                           | < 0.001 |
+| Useful                     | -0.064                          | < 0.001 |  
+| Funny                      | -0.043                          | 3.97    |
+| Cool                       | -0.011                          | 3.66    |
   
 We used 3 different machine learning algorithms i.e. Logistic Regression, Multinomial 
 Naïve Bayes and Random Forest, to check for accuracy in classifying review into 5 
