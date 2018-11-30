@@ -52,7 +52,7 @@ extracted features such as number of words, sentences, average sentence length,
 TFIDF, star rating, sentiment of review as positive/negative, number of votes 
 received by a review, how long has the user been providing Yelp reviews etc. 
 Using SVM, researchers were able to achieve accuracy of 0.67 and 0.69 in case
-of Random Forest model for predicting if review is ‘Useful’. [@fa18-523-65-www-5]
+of Random Forest model for predicting if review is ‘Useful’ [@fa18-523-65-www-5].
 
 Hajas et al tried to understand how external factors such as changing taste result
 in cyclic behavior for user reviews for restaurants. They took Yelp reviews from 
@@ -63,7 +63,7 @@ means that restaurants that have good quality, may drop their investment in
 keeping quality constant which results in bad reviews. This in turn forces them
 to invest back in quality to gain back lost business. Researchers also created
 heat maps to show how restaurants of similar high quality tend to be closer to
-each other to gain from bigger crowds. [@fa18-523-65-www-4]
+each other to gain from bigger crowds [@fa18-523-65-www-4].
 
 Koven et al focused on methods to predict useful reviews. Their motivation was 
 that there is lot of work done in trying to find bad/fake reviews. But, it was
@@ -71,8 +71,8 @@ useful to find genuine and useful reviews. They created various attributes for
 Yelp reviews such as reviewer’s average star rating, relationship between reviewers,
 topic and personality analysis, geographic distribution of reviews etc. They used 
 J48 algorithm and reached accuracy of 79.8 in predicting if a review is useful or
-not. They were also able to predict bad reviews with roughly 5% false positives.
-[@fa18-523-65-www-7]
+not. They were also able to predict bad reviews with roughly 5% false positives
+[@fa18-523-65-www-7].
 
 
 ## Dataset
@@ -204,8 +204,6 @@ which weekday was preferred by users to go out and hence provide reviews for the
 businesses. Fig. 6 shows that most users liked to go out on Saturday followed by 
 Sunday and Friday. Monday and Tuesday saw lowest number of checkins for businesses.
 
-Insert :o: Fig. 3, 4, 5 and 6 here.
-
 :o: please revie our sample on how to refer to images
 
 ![Fig.3 :o:](images/Fig.3.PNG){#fig:fig3}
@@ -273,6 +271,6 @@ one of most liked places.
 
 ## Project members and Work Breakdown
 
-* Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset
-* Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods
+* Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset, Data Analysis using Python, Results, Discussion
+* Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods, Data Analysis using Python, Discussion, Conclusions
 
