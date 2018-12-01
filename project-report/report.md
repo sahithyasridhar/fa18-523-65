@@ -65,7 +65,7 @@ to invest back in quality to gain back lost business [@fa18-523-65-www-4].
 
 "We provide heat maps of where most reviewed restaurants are located. The aim
 of this is to show that most reviewed restaurants are usually clustered together.
-This is an intuitive result, given that consumers have the option of choosing
+This is an intuitive results, given that consumers have the option of choosing
 another (equally good) restaurant if the originally chosen restaurant is crowded
 [@fa18-523-65-www-4]". 
 
