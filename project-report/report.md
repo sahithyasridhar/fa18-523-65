@@ -85,7 +85,9 @@ Dataset used for analysis is taken from Kaggle website. Data contains 5.2 millio
 user reviews for 174k businesses from 11 metropolitan areas. Data is in CSV and 
 JSON format. It has following features business_id, name, neighborhood, address,
 city, state, postal_code, latitude, longitude, stars, review_count, attributes,
-categories. 
+categories about businesses across 11 metropolitan areas in four countries.
+It was originally put together for the Yelp Dataset Challenge to perform 
+analysis on Yelp's data.
 
 ## Data processing
 
