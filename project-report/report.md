@@ -232,7 +232,7 @@ that have pan US presence.
 
 ![Fig.7](images/Fig.7.PNG){#fig:top rated restaurants on Yelp}
 
-+@fig:Distribution of Star ratings shows distribution of ratings offered to 
++@figdDistribution of Star ratings shows distribution of ratings offered to 
 businesses. We see that rating 5 was most used rating by reviewers for 
 describing their experience at given restaurant. Rating 2 was least used 
 rating. Looking at distribution of review length for each star rating shows 
