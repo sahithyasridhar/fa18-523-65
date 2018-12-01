@@ -122,15 +122,15 @@ infamous for.
 
 Linear regression between polarity and star ratings showed correlation coefficient is
 0.61. This means review emotions and star ratings are moderately correlated. This is 
-shown in Fig. 1. We can see regression line graphically represents this correlation 
-between review text and star rating given by user. One important result is that we got
-p value less than 0.001. Meaning, the results are highly significant and that they are
-very unlikely to have occurred by chance. Review classification such as ‘useful’, ‘cool’
-and ‘funny’ has negative correlation with review emotions. This is likely because people
-might have used ironic language while providing review for a business. All results for 
-linear regression analysis are shown in Table. 1. 
+shown in +@fig:Correlation between Star rating and Polarity. We can see regression line 
+graphically represents this correlation between review text and star rating given by user. 
+One important result is that we got p value less than 0.001. Meaning, the results are 
+highly significant and that they are very unlikely to have occurred by chance. Review 
+classification such as ‘useful’, ‘cool’ and ‘funny’ has negative correlation with review 
+emotions. This is likely because people might have used ironic language while providing 
+review for a business. All results for linear regression analysis are shown in Table. 1. 
 
-![Fig.1 :o:](images/Fig.1.PNG){#fig:Fig.1}
+![Fig.1 :o:](images/Fig.1.PNG){#fig:Correlation between Star rating and Polarity}
 
 
 **Table. 1 Correlation between review sentiment and star rating and review class**
@@ -186,67 +186,74 @@ general.
 
 We created confusion matrix to understand these correlations in simpler way.
 We grouped our data by star rating. Confusion matrix thus created is shown in
-form of heatmap in Fig. 2. We can see that ‘useful’ and ‘funny’ is correlated
-with text length. ‘cool’ and ‘subjectivity’ are correlated to polarity.
+form of heatmap in +@fig:Confusion matrix for predicting emotions. We can see 
+that ‘useful’ and ‘funny’ is correlated with text length. ‘cool’ and 
+‘subjectivity’ are correlated to polarity.
 
-![Fig.2 :o:](images/Fig.2.PNG){#fig:Fig.2}
+![Fig.2](images/Fig.2.PNG){#fig:Confusion matrix for predicting emotions}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
-states. Shown in Fig. 3, we see Arizona is the state with most reviews for 
-businesses followed by Nevada and California. We then looked at number of reviews
-by cities. As seen in Fig. 4, Las Vegas is the city with most number of reviews 
-with 26775 reviews followed by Phoenix and Toronto. Fig. 4 shows only top 20 cities
+states. Shown in +@fig:Top states for businesses in Yelp data, we see Arizona is 
+the state with most reviews for businesses followed by Nevada and California. We 
+then looked at number of reviews by cities. As seen in +@fig:Top cities with most 
+user reviews, Las Vegas is the city with most number of reviews with 26775 
+reviews followed by Phoenix and Toronto. Fig. 4 shows only top 20 cities
 but, our dataset has reviews for 11 metropolitan areas and had reviews for 1093 
-cities. We also looked at what type of businesses are present on Yelp. In Fig. 5 
-we can see that various types of restaurants receive most reviews followed by
-shopping and home services. Another interesting observation we wanted to make was
-which weekday was preferred by users to go out and hence provide reviews for these
-businesses. Fig. 6 shows that most users liked to go out on Saturday followed by 
-Sunday and Friday. Monday and Tuesday saw lowest number of checkins for businesses.
+cities. We also looked at what type of businesses are present on Yelp. 
+In +@fig:Categories of businesses in Yelp data we can see that various types 
+of restaurants receive most reviews followed by shopping and home services. 
+Another interesting observation we wanted to make was which weekday was 
+preferred by users to go out and hence provide reviews for these businesses. 
++@fig:Distribution of Checkins for weekdays shows that most users liked to go 
+out on Saturday followed by Sunday and Friday. Monday and Tuesday saw lowest 
+number of checkins for businesses.
 
-:o: please revie our sample on how to refer to images
+![Fig.3](images/Fig.3.PNG){#fig:Top states for businesses in Yelp data}
 
-![Fig.3 :o:](images/Fig.3.PNG){#fig:fig3}
+![Fig.4](images/Fig.4.PNG){#fig:Top cities with most reviews}
 
-![Fig.4](images/Fig.4.PNG){#fig:fig4}
+![Fig.5](images/Fig.5.PNG){#fig:Categories of businesses in Yelp data}
 
-![Fig.5](images/Fig.5.PNG){#fig:fig5}
-
-![Fig.6](images/Fig.6.PNG){#fig:fig6}
+![Fig.6](images/Fig.6.PNG){#fig:Distribution of Checkins for weekdays}
 
 We used pandas’ ‘groupby’ function to calculate mean star ratings for businesses.
 For purpose of this project we decided to look at details of restaurants only. 
-Fig. 7 shows top rated restaurants with descending average descending star rating.
-We are showing top 20 businesses only as data has more than 1000 places. ‘Earl of 
-Sandwich’ was top rated restaurant with average rating of 4.25. Top 10 places are
-dominated by restaurants that serve pizza and burger. One other thing to notice is
-that most of these restaurants are franchises. However, regional franchises have 
-higher star ratings than ones that have pan US presence.
++@fig.Top rated restaurants on Yelp shows top rated restaurants with descending 
+average descending star rating. We are showing top 20 businesses only as data 
+has more than 1000 places. ‘Earl of Sandwich’ was top rated restaurant with 
+average rating of 4.25. Top 10 places are dominated by restaurants that serve 
+pizza and burger. One other thing to notice is that most of these restaurants 
+are franchises. However, regional franchises have higher star ratings than ones 
+that have pan US presence.
 
-![Fig.7](images/Fig.7.PNG){#fig:fig7}
+![Fig.7](images/Fig.7.PNG){#fig:Top rated restaurants on Yelp}
 
-Fig. 8 shows distribution of ratings offered to businesses. We see that rating 5 
-was most used rating by reviewers for describing their experience at given restaurant.
-Rating 2 was least used rating. Looking at distribution of review length for each star
-rating shows there was no significant difference in review length distribution. 
-However, comparing Fig. 9 with Fig. 8 shows same trend. Meaning more restaurants got
++@fig.Distribution of Star ratings shows distribution of ratings offered to 
+businesses. We see that rating 5 was most used rating by reviewers for 
+describing their experience at given restaurant. Rating 2 was least used 
+rating. Looking at distribution of review length for each star rating shows 
+there was no significant difference in review length distribution. 
+However, comparing +@fig.Review length distribution by Star rating with 
++@fig.Distribution of Star ratings shows same trend. Meaning more restaurants got
 5-star rating but they also got some textual review. We also looked average number 
-of reviews given by users. We can see in Fig. 10 that most users provided less than
-5 reviews. There is small percentage of users who have provided more than 30 reviews.
+of reviews given by users. We can see in +@fig.Distribution of number of reviews 
+by users that most users provided less than 5 reviews. There is small percentage 
+of users who have provided more than 30 reviews.
 
-![Fig.8](images/Fig.8.PNG){#fig:fig8}
+![Fig.8](images/Fig.8.PNG){#fig:Distribution of Star ratings}
 
-![Fig.9](images/Fig.9.PNG){#fig:fig9}
+![Fig.9](images/Fig.9.PNG){#fig:Review length distribution by Star rating}
 
-![Fig.10](images/Fig.10.PNG){#fig:fig10}
+![Fig.10](images/Fig.10.PNG){#fig:Distribution of number of reviews by users}
 
 We were interested in seeing usage of words to describe user experience about a certain
 place. We chose 11 words that we thought could have been most used in reviews. This list
-covered words that help express both positive and negative emotions. Fig. 11 shows that
-word ‘great’ was used a lot by users to describe positive experience. Word ‘bad’ was 
-used mostly to describe negative experience.
+covered words that help express both positive and negative emotions. 
++@fig:Most commonly used words for good and bad reviews shows that word ‘great’ was 
+used a lot by users to describe positive experience. Word ‘bad’ was used mostly to 
+describe negative experience.
 
-![Fig.11](images/Fig.11.PNG){#fig:fig11}
+![Fig.11](images/Fig.11.PNG){#fig:Most commonly used words for good and bad reviews}
 
 ## Discussion
 
@@ -271,6 +278,8 @@ one of most liked places.
 
 ## Project members and Work Breakdown
 
-* Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset, Data Analysis using Python, Results, Discussion
-* Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods, Data Analysis using Python, Discussion, Conclusions
+* Prajakta Patil - fa18-523-65: Introduction, Literature review, Dataset, Data Analysis 
+using Python, Results, Discussion
+* Sahithya Sridhar- fa18-523-67: Abstract, Data processing, Analysis methods, Data 
+Analysis using Python, Discussion, Conclusions
 
