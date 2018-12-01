@@ -197,7 +197,7 @@ that ‘useful’ and ‘funny’ is correlated with text length. ‘cool’ and
 ![Fig.2](images/Fig.2.PNG){#fig:confusion matrix for predicting emotions}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
-states. Shown in +@fig:Top states for businesses in Yelp data, we see Arizona is 
+states. Shown in +@fig:top states for businesses in Yelp data, we see Arizona is 
 the state with most reviews for businesses followed by Nevada and California. We 
 then looked at number of reviews by cities. As seen in +@fig:top cities with most 
 user reviews, Las Vegas is the city with most number of reviews with 26775 
