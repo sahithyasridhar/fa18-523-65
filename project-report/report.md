@@ -61,9 +61,13 @@ restaurant quality using a second-degree liner differential function. They were
 able to show how restaurant quality results in cyclic behavior for ratings. This
 means that restaurants that have good quality, may drop their investment in 
 keeping quality constant which results in bad reviews. This in turn forces them
-to invest back in quality to gain back lost business. Researchers also created
-heat maps to show how restaurants of similar high quality tend to be closer to
-each other to gain from bigger crowds [@fa18-523-65-www-4].
+to invest back in quality to gain back lost business [@fa18-523-65-www-4]. 
+
+"We provide heat maps of where most reviewed restaurants are located. The aim
+of this is to show that most reviewed restaurants are usually clustered together.
+This is an intuitive result, given that consumers have the option of choosing
+another (equally good) restaurant if the originally chosen restaurant is crowded
+[@fa18-523-65-www-4]". 
 
 Koven et al focused on methods to predict useful reviews. Their motivation was 
 that there is lot of work done in trying to find bad/fake reviews. But, it was
