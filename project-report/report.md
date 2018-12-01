@@ -197,12 +197,12 @@ states. Shown in +@fig:Top states for businesses in Yelp data, we see Arizona is
 the state with most reviews for businesses followed by Nevada and California. We 
 then looked at number of reviews by cities. As seen in +@fig:Top cities with most 
 user reviews, Las Vegas is the city with most number of reviews with 26775 
-reviews followed by Phoenix and Toronto. Fig. 4 shows only top 20 cities
-but, our dataset has reviews for 11 metropolitan areas and had reviews for 1093 
-cities. We also looked at what type of businesses are present on Yelp. 
-In +@fig:Categories of businesses in Yelp data we can see that various types 
-of restaurants receive most reviews followed by shopping and home services. 
-Another interesting observation we wanted to make was which weekday was 
+reviews followed by Phoenix and Toronto. +@fig:Top cities with most reviews 4 
+shows only top 20 cities but, our dataset has reviews for 11 metropolitan areas 
+and had reviews for 1093 cities. We also looked at what type of businesses are 
+present on Yelp. In +@fig:Categories of businesses in Yelp data we can see that 
+various types of restaurants receive most reviews followed by shopping and home 
+services. Another interesting observation we wanted to make was which weekday was 
 preferred by users to go out and hence provide reviews for these businesses. 
 +@fig:Distribution of Checkins for weekdays shows that most users liked to go 
 out on Saturday followed by Sunday and Friday. Monday and Tuesday saw lowest 
@@ -218,7 +218,7 @@ number of checkins for businesses.
 
 We used pandas’ ‘groupby’ function to calculate mean star ratings for businesses.
 For purpose of this project we decided to look at details of restaurants only. 
-+@fig.Top rated restaurants on Yelp shows top rated restaurants with descending 
++@fig:Top rated restaurants on Yelp shows top rated restaurants with descending 
 average descending star rating. We are showing top 20 businesses only as data 
 has more than 1000 places. ‘Earl of Sandwich’ was top rated restaurant with 
 average rating of 4.25. Top 10 places are dominated by restaurants that serve 
@@ -228,15 +228,15 @@ that have pan US presence.
 
 ![Fig.7](images/Fig.7.PNG){#fig:Top rated restaurants on Yelp}
 
-+@fig.Distribution of Star ratings shows distribution of ratings offered to 
++@fig:Distribution of Star ratings shows distribution of ratings offered to 
 businesses. We see that rating 5 was most used rating by reviewers for 
 describing their experience at given restaurant. Rating 2 was least used 
 rating. Looking at distribution of review length for each star rating shows 
 there was no significant difference in review length distribution. 
-However, comparing +@fig.Review length distribution by Star rating with 
-+@fig.Distribution of Star ratings shows same trend. Meaning more restaurants got
+However, comparing +@fig:Review length distribution by Star rating with 
++@fig:Distribution of Star ratings shows same trend. Meaning more restaurants got
 5-star rating but they also got some textual review. We also looked average number 
-of reviews given by users. We can see in +@fig.Distribution of number of reviews 
+of reviews given by users. We can see in +@fig:Distribution of number of reviews 
 by users that most users provided less than 5 reviews. There is small percentage 
 of users who have provided more than 30 reviews.
 
