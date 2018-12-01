@@ -134,7 +134,7 @@ classification such as ‘useful’, ‘cool’ and ‘funny’ has negative cor
 emotions. This is likely because people might have used ironic language while providing 
 review for a business. All results for linear regression analysis are shown in Table. 1. 
 
-![Fig.1 :o:](images/Fig.1.PNG){#fig:Correlation between Star rating and Polarity}
+![Fig.1](images/Fig.1.PNG){#fig:Correlation between Star rating and Polarity}
 
 
 **Table. 1 Correlation between review sentiment and star rating and review class**
