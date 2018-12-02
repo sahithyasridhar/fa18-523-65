@@ -12,9 +12,6 @@ Keywords: Yelp, Natural language processing (NLP), Sentiment analysis, Scikit-le
 
 ---
 
-:o: punctuation errors prevent us to kone which sentence your refernces belong to
-please review plagarizm rules.
-
 ## Abstract
 
 Yelp is a search service with website that hosts reviews for businesses,
