@@ -21,7 +21,7 @@ with star ratings given by users to restaurants. It is found that star rating
 of 1 and 5 are well correlated with textual reviews. Star rating of 2, 3 and 4
 are not so well correlated with textual reviews. This analysis can help users
 make better decisions by suggesting them to either just look at star ratings 
-or go through actual text reviews.
+or go through actual text reviews [@fa18-523-65-www-1].
 
 ## Introduction
 
@@ -37,7 +37,8 @@ However, when there are multiple restaurants that are similar; it becomes
 little difficult to choose one. We took a dataset of Yelp reviews and tried to
 find correlations between text reviews and star ratings. We perform additional
 analysis to show additional patterns in data. Technologies used to perform 
-analysis is Natural Language Processing and Sentiment Analysis.
+analysis is Natural Language Processing and Sentiment Analysis 
+[@fa18-523-65-www-1].
 
 ## Literature review
 
@@ -49,7 +50,7 @@ extracted features such as number of words, sentences, average sentence length,
 TFIDF, star rating, sentiment of review as positive/negative, number of votes 
 received by a review, how long has the user been providing Yelp reviews etc. 
 Using SVM, researchers were able to achieve accuracy of 0.67 and 0.69 in case
-of Random Forest model for predicting if review is ‘Useful’ [@fa18-523-65-www-5].
+of Random Forest model for predicting if review is 'Useful' [@fa18-523-65-www-5].
 
 Hajas et al tried to understand how external factors such as changing taste result
 in cyclic behavior for user reviews for restaurants. They took Yelp reviews from 
@@ -84,7 +85,7 @@ JSON format. It has following features business_id, name, neighborhood, address,
 city, state, postal_code, latitude, longitude, stars, review_count, attributes,
 categories about businesses across 11 metropolitan areas in four countries.
 It was originally put together for the Yelp Dataset Challenge to perform 
-analysis on Yelp's data.
+analysis on Yelp's data [@fa18-523-65-www-1].
 
 ## Data processing
 
@@ -93,7 +94,7 @@ stop-words. We also removed punctuations. All the words are converted to lowerca
 We also removed unnecessary symbols and spaces. We didn’t remove numbers as it might
 help users with prices which is an important factor while choosing a restaurant. 
 All these operations helped reduce size of data by getting rid of unnecessary data
-while retaining useful information.
+while retaining useful information [@fa18-523-65-www-1].
 
 ## Analysis methods
 
@@ -102,14 +103,14 @@ data:
 
 *	Linear Regression is performed to find if there is any correlation between
 reviews and rating (stars). Reviews were characterized into polarity. This is done
-using python library called ‘TextBlob’. Polarity value is between -1 to 1. Polarity
+using python library called 'TextBlob'. Polarity value is between -1 to 1. Polarity
 above 0 means text emotion is positive while, polarity below 0 means text emotions
 are negative. 0 polarity means neutral emotions. We also calculated another parameter
-called ‘subjectivity’. Subjectivity reflects user’s personal emotions, opinions.
+called 'subjectivity'. Subjectivity reflects user’s personal emotions, opinions.
 Subjectivity is between 0 to 1. Subjectivity of 0 means fact-based opinion and 1
 means subjective opinion. We also used this method to find if there are correlations
 between reviews and classification of review i.e. whether it is categorized as 
-‘useful’, ‘cool’ or ‘funny’. As data we worked with was large, we used sampling 
+'useful', 'cool' or 'funny'. As data we worked with was large, we used sampling 
 method to use only 10% of all data for this analysis.	
 * Logistic Regression, Multinomial Naïve Bayes and Random Forest algorithm These 
 are used to predict rating based on text review. This will help understand and 
@@ -129,7 +130,7 @@ shown in +@fig:correlation between Star rating and polarity. We can see regressi
 graphically represents this correlation between review text and star rating given by user. 
 One important result is that we got p value less than 0.001. Meaning, the results are 
 highly significant and that they are very unlikely to have occurred by chance. Review 
-classification such as ‘useful’, ‘cool’ and ‘funny’ has negative correlation with review 
+classification such as 'useful', 'cool' and 'funny' has negative correlation with review 
 emotions. This is likely because people might have used ironic language while providing 
 review for a business. All results for linear regression analysis are shown in Table. 1. 
 
@@ -190,8 +191,8 @@ general.
 We created confusion matrix to understand these correlations in simpler way.
 We grouped our data by star rating. Confusion matrix thus created is shown in
 form of heatmap in +@fig:confusion matrix for predicting emotions. We can see 
-that ‘useful’ and ‘funny’ is correlated with text length. ‘cool’ and 
-‘subjectivity’ are correlated to polarity.
+that 'useful' and 'funny' is correlated with text length. 'cool' and 
+'subjectivity' are correlated to polarity.
 
 ![Fig.2](images/Fig.2.PNG){#fig:confusion matrix for predicting emotions}
 
@@ -219,11 +220,11 @@ number of checkins for businesses.
 
 ![Fig.6](images/Fig.6.PNG){#fig:distribution of Checkins for weekdays}
 
-We used pandas’ ‘groupby’ function to calculate mean star ratings for businesses.
+We used pandas 'groupby' function to calculate mean star ratings for businesses.
 For purpose of this project we decided to look at details of restaurants only. 
 +@fig:top rated restaurants on Yelp shows top rated restaurants with descending 
 average descending star rating. We are showing top 20 businesses only as data 
-has more than 1000 places. ‘Earl of Sandwich’ was top rated restaurant with 
+has more than 1000 places. 'Earl of Sandwich' was top rated restaurant with 
 average rating of 4.25. Top 10 places are dominated by restaurants that serve 
 pizza and burger. One other thing to notice is that most of these restaurants 
 are franchises. However, regional franchises have higher star ratings than ones 
@@ -249,12 +250,12 @@ of users who have provided more than 30 reviews.
 
 ![Fig.10](images/Fig.10.PNG){#fig:distribution of number of reviews by users}
 
-We were interested in seeing usage of words to describe user experience about a certain
-place. We chose 11 words that we thought could have been most used in reviews. This list
-covered words that help express both positive and negative emotions. 
-+@fig:most commonly used words for good and bad reviews shows that word ‘great’ was 
-used a lot by users to describe positive experience. Word ‘bad’ was used mostly to 
-describe negative experience.
+We were interested in seeing usage of words to describe user experience about a 
+certain place. We chose 11 words that we thought could have been most used in 
+reviews. This list covered words that help express both positive and negative 
+emotions. +@fig:most commonly used words for good and bad reviews shows that word
+'great' was used a lot by users to describe positive experience. Word 'bad' was
+used mostly to describe negative experience.
 
 ![Fig.11](images/Fig.11.PNG){#fig:most commonly used words for good and bad reviews}
 
