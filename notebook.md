@@ -39,6 +39,14 @@ Week Fri 08/31/18 - 09/06/18
 # Week Fri 11/02/18 - 11/08/18
 * Continued work on project analysis
 * Started updating project report
-# Week Fri 11/09/18 - 11/16/18
+# Week Fri 11/09/18 - 11/15/18
 * Updated 2-page paper
 * Continued project analysis and updating report
+# Week Fri 11/16/18 - 11/22/18
+* Finished video lectures
+* Completed 2-page paper
+* Worked on completing project report
+# Week Fri 11/23/18 - 11/29/18
+* Worked on analysis code to get optimum results
+# Week Fri 11/30/18 - 12/6/18
+* Worked on finalizing project report in github
