@@ -146,7 +146,7 @@ cool and funny has negative correlation with review emotions. This is likely bec
 people might have used ironic language while providing a review for the business. 
 All results from the linear regression analysis are shown in Table.1 
 
-![Correlation between Star rating and Polarity](images/Fig.1.PNG){#fig:correlation-between-star-rating-and-polarity}
+![Correlation between Star rating and Polarity](images/fa18-523-65.Fig.1.PNG){#fig:correlation-between-star-rating-and-polarity}
 
 
 **Table.1 Correlation between review sentiment and star rating and review class**
@@ -200,7 +200,7 @@ form of heatmap in +@fig:confusion-matrix-for-predicting-emotions. We can see
 that *useful* and *funny* is correlated with text length. *cool* and 
 *subjectivity* are correlated to polarity.
 
-![Confusion matrix for predicting emotions](images/Fig.2.PNG){#fig:confusion-matrix-for-predicting-emotions}
+![Confusion matrix for predicting emotions](images/fa18-523-65.Fig.2.PNG){#fig:confusion-matrix-for-predicting-emotions}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
 states. Shown in +@fig:top-states-for-businesses-in-Yelp-data, we see Arizona is 
@@ -218,13 +218,13 @@ preferred by users to go out and hence provide reviews for these businesses.
 out on Saturday followed by Sunday and Friday. Monday and Tuesday saw the lowest 
 number of checkins for businesses.
 
-![Top states for businesses in Yelp data](images/Fig.3.PNG){#fig:top-states-for-businesses-in-Yelp-data}
+![Top states for businesses in Yelp data](images/fa18-523-65.Fig.3.PNG){#fig:top-states-for-businesses-in-Yelp-data}
 
-![Top cities with most user reviews](images/Fig.4.PNG){#fig:top-cities-with-most-user-reviews}
+![Top cities with most user reviews](images/fa18-523-65.Fig.4.PNG){#fig:top-cities-with-most-user-reviews}
 
-![Categories of businesses in Yelp data](images/Fig.5.PNG){#fig:categories-of-businesses-in-Yelp-data}
+![Categories of businesses in Yelp data](images/fa18-523-65.Fig.5.PNG){#fig:categories-of-businesses-in-Yelp-data}
 
-![Distribution of Checkins for weekdays](images/Fig.6.PNG){#fig:distribution-of-Checkins-for-weekdays}
+![Distribution of Checkins for weekdays](images/fa18-523-65.Fig.6.PNG){#fig:distribution-of-Checkins-for-weekdays}
 
 We used pandas *groupby* function to calculate mean star ratings for businesses.
 For purpose of this project we decided to look at details of restaurants only. 
@@ -236,7 +236,7 @@ pizza and burger. One other thing to notice is that most of these restaurants
 are franchises. However, regional franchises have higher star ratings than ones 
 that have pan US presence.
 
-![Top rated restaurants on Yelp](images/Fig.7.PNG){#fig:top-rated-restaurants-on-Yelp}
+![Top rated restaurants on Yelp](images/fa18-523-65.Fig.7.PNG){#fig:top-rated-restaurants-on-Yelp}
 
 +@fig:distribution-of-Star-ratings shows distribution of ratings offered to 
 businesses. We see that rating 5 was most used rating by reviewers for 
@@ -250,11 +250,11 @@ of reviews given by users. We can see in +@fig:distribution-of-number-of-reviews
 that most users provided less than 5 reviews. There is small percentage 
 of users who have provided more than 30 reviews.
 
-![Distribution of Star ratings](images/Fig.8.PNG){#fig:distribution-of-Star-ratings}
+![Distribution of Star ratings](images/fa18-523-65.Fig.8.PNG){#fig:distribution-of-Star-ratings}
 
-![Review length distribution by Star rating](images/Fig.9.PNG){#fig:review-length-distribution-by-Star-rating}
+![Review length distribution by Star rating](images/fa18-523-65.Fig.9.PNG){#fig:review-length-distribution-by-Star-rating}
 
-![Distribution of number of reviews by users](images/Fig.10.PNG){#fig:distribution-of-number-of-reviews-by-users}
+![Distribution of number of reviews by users](images/fa18-523-65.Fig.10.PNG){#fig:distribution-of-number-of-reviews-by-users}
 
 We were interested in seeing usage of words to describe user experience about a 
 certain place. We chose 11 words that we thought could have been most used in 
@@ -263,7 +263,7 @@ emotions. +@fig:most-commonly-used-words-for-good-and-bad-reviews shows that wor
 *great* was used a lot by users to describe positive experience. Word *bad* was
 used mostly to describe negative experience.
 
-![Most commonly used words for good and bad reviews](images/Fig.11.PNG){#fig:most-commonly-used-words-for-good-and-bad-reviews}
+![Most commonly used words for good and bad reviews](images/fa18-523-65.Fig.11.PNG){#fig:most-commonly-used-words-for-good-and-bad-reviews}
 
 ## Discussion
 
