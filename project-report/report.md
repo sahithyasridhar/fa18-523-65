@@ -104,27 +104,35 @@ the data while retaining useful information [@fa18-523-65-www-1].
 Following methods are used for analysis to make observations and conclusions from 
 data:
 
-*	Linear Regression is performed to find out if there is any correlation 
-between reviews and ratings (stars). The reviews were characterized into
-polarity. This is done using the python library called *TextBlob*. The polarity
-value is between -1 to 1. Polarity above 0 means the text emotion is positive
-while polarity below 0 means the text emotions are negative. 0 polarity means 
-neutral emotions. We also calculated another parameter called *Subjectivity*. 
-Subjectivity reflects the user’s personal emotions and opinions. Subjectivity
-is between 0 to 1. A subjectivity of 0 means it’s a fact-based opinion and 1 
-means it’s a subjective opinion. We also used this method to find out if there
-are correlations between reviews and classification of the review i.e. whether 
-it is categorized as *useful, cool or funny*. As the data we worked with was large,
-we used a sampling method to use only 10% of all the data for this analysis.
-* Logistic Regression, Multinomial Naïve Bayes and Random Forest algorithms are
-used to predict the rating based on text reviews. This will help understand and
-predict how well the text review and ratings match. Low accuracy means that there 
-is more to the ratings that just the text review. High accuracy means that the 
-ratings accurately capture the sentiments in the text review. 
+*	Linear Regression
+
+  Linear Regression is performed to find out if there is any correlation 
+  between reviews and ratings (stars). The reviews were characterized into
+  polarity. This is done using the python library called *TextBlob*. The polarity
+  value is between -1 to 1. Polarity above 0 means the text emotion is positive
+  while polarity below 0 means the text emotions are negative. 0 polarity means 
+  neutral emotions. We also calculated another parameter called *Subjectivity*. 
+  Subjectivity reflects the user’s personal emotions and opinions. Subjectivity
+  is between 0 to 1. A subjectivity of 0 means it’s a fact-based opinion and 1 
+  means it’s a subjective opinion. We also used this method to find out if there
+  are correlations between reviews and classification of the review i.e. whether 
+  it is categorized as *useful, cool or funny*. As the data we worked with was large,
+  we used a sampling method to use only 10% of all the data for this analysis.
+  
+* Logistic Regression, Multinomial Naïve Bayes and Random Forest 
+
+  These algorithms are used to predict the rating based on text reviews. This will
+  help understand and predict how well the text review and ratings match. Low 
+  accuracy means that there is more to the ratings that just the text review.
+  High accuracy means that the ratings accurately capture the sentiments in the
+  text review. 
+  
 *	Count, Term Frequency Inverse Document Frequency (tfidf) vectorizer, and Linear
-SVC help with understanding which words are most commonly used in reviews for a 
-restaurant and help in gaining insight on why certain places might be famous or 
-infamous for.
+  SVC 
+
+  These help with understanding which words are most commonly used in reviews for a 
+  restaurant and help in gaining insight on why certain places might be famous or 
+  infamous for.
  
 ## Results
 
