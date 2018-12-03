@@ -6,8 +6,6 @@
 | hid: fa18-523-65, fa18-523-67
 | github: [:cloud:](https://github.com/cloudmesh-community/fa18-523-65/blob/master/project-report/report.md)
 
-:o: please fix format, figure labels must not have spaces, repeatedly mentioned.
-
 ---
 
 Keywords: Yelp, Natural language processing (NLP), Sentiment analysis, Scikit-learn
