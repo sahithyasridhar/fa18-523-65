@@ -202,7 +202,7 @@ the state with most reviews for businesses followed by Nevada and California. We
 then looked at number of reviews by cities. As seen in +@fig:top-cities-with-most-user-reviews, 
 Las Vegas is the city with most number of reviews with 26810 
 reviews followed by Phoenix and Toronto. +@fig:top-cities-with-most-user-reviews 
-shows only top 20 cities but, our dataset has reviews for 11 metropolitan areas 
+shows only top 10 cities but, our dataset has reviews for 11 metropolitan areas 
 and had reviews for 1093 cities. We also looked at what type of businesses are 
 present on Yelp. In +@fig:categories-of-businesses-in-Yelp-data we can see that 
 various types of restaurants receive most reviews followed by shopping and home 
