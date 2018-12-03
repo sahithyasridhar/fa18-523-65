@@ -104,27 +104,35 @@ the data while retaining useful information [@fa18-523-65-www-1].
 Following methods are used for analysis to make observations and conclusions from 
 data:
 
-*	Linear Regression is performed to find out if there is any correlation 
-between reviews and ratings (stars). The reviews were characterized into
-polarity. This is done using the python library called *TextBlob*. The polarity
-value is between -1 to 1. Polarity above 0 means the text emotion is positive
-while polarity below 0 means the text emotions are negative. 0 polarity means 
-neutral emotions. We also calculated another parameter called *Subjectivity*. 
-Subjectivity reflects the user’s personal emotions and opinions. Subjectivity
-is between 0 to 1. A subjectivity of 0 means it’s a fact-based opinion and 1 
-means it’s a subjective opinion. We also used this method to find out if there
-are correlations between reviews and classification of the review i.e. whether 
-it is categorized as *useful, cool or funny*. As the data we worked with was large,
-we used a sampling method to use only 10% of all the data for this analysis.
-* Logistic Regression, Multinomial Naïve Bayes and Random Forest algorithms are
-used to predict the rating based on text reviews. This will help understand and
-predict how well the text review and ratings match. Low accuracy means that there 
-is more to the ratings that just the text review. High accuracy means that the 
-ratings accurately capture the sentiments in the text review. 
+*	Linear Regression
+
+  Linear Regression is performed to find out if there is any correlation 
+  between reviews and ratings (stars). The reviews were characterized into
+  polarity. This is done using the python library called *TextBlob*. The polarity
+  value is between -1 to 1. Polarity above 0 means the text emotion is positive
+  while polarity below 0 means the text emotions are negative. 0 polarity means 
+  neutral emotions. We also calculated another parameter called *Subjectivity*. 
+  Subjectivity reflects the user’s personal emotions and opinions. Subjectivity
+  is between 0 to 1. A subjectivity of 0 means it’s a fact-based opinion and 1 
+  means it’s a subjective opinion. We also used this method to find out if there
+  are correlations between reviews and classification of the review i.e. whether 
+  it is categorized as *useful, cool or funny*. As the data we worked with was large,
+  we used a sampling method to use only 10% of all the data for this analysis.
+  
+* Logistic Regression, Multinomial Naïve Bayes and Random Forest
+
+  These algorithms are used to predict the rating based on text reviews. This will
+  help understand and predict how well the text review and ratings match. Low 
+  accuracy means that there is more to the ratings that just the text review. 
+  High accuracy means that the ratings accurately capture the sentiments in the
+  text review. 
+  
 *	Count, Term Frequency Inverse Document Frequency (tfidf) vectorizer, and Linear
-SVC help with understanding which words are most commonly used in reviews for a 
-restaurant and help in gaining insight on why certain places might be famous or 
-infamous for.
+  SVC 
+
+  These models help with understanding which words are most commonly used in reviews
+  for a restaurant and help in gaining insight on why certain places might be famous
+  or infamous for.
  
 ## Results
 
@@ -140,7 +148,7 @@ cool and funny has negative correlation with review emotions. This is likely bec
 people might have used ironic language while providing a review for the business. 
 All results from the linear regression analysis are shown in Table.1 
 
-![Fig.1](images/Fig.1.PNG){#fig:correlation-between-star-rating-and-polarity}
+![correlation between star rating and polarity](images/Fig.1.PNG){#fig:correlation-between-star-rating-and-polarity}
 
 
 **Table.1 Correlation between review sentiment and star rating and review class**
@@ -194,7 +202,7 @@ form of heatmap in +@fig:confusion-matrix-for-predicting-emotions. We can see
 that *useful* and *funny* is correlated with text length. *cool* and 
 *subjectivity* are correlated to polarity.
 
-![Fig.2](images/Fig.2.PNG){#fig:confusion-matrix-for-predicting-emotions}
+![confusion matrix for predicting emotions](images/Fig.2.PNG){#fig:confusion-matrix-for-predicting-emotions}
 
 We wanted to understand patterns from this data. First, we looked at reviews by
 states. Shown in +@fig:top-states-for-businesses-in-Yelp-data, we see Arizona is 
@@ -212,13 +220,13 @@ preferred by users to go out and hence provide reviews for these businesses.
 out on Saturday followed by Sunday and Friday. Monday and Tuesday saw the lowest 
 number of checkins for businesses.
 
-![Fig.3](images/Fig.3.PNG){#fig:top-states-for-businesses-in-Yelp-data}
+![Top states for business](images/Fig.3.PNG){#fig:top-states-for-businesses-in-Yelp-data}
 
-![Fig.4](images/Fig.4.PNG){#fig:top-cities-with-most-reviews}
+![Top cities with most reviews](images/Fig.4.PNG){#fig:top-cities-with-most-reviews}
 
-![Fig.5](images/Fig.5.PNG){#fig:categories-of-businesses-in-Yelp-data}
+![Categories of business](images/Fig.5.PNG){#fig:categories-of-businesses-in-Yelp-data}
 
-![Fig.6](images/Fig.6.PNG){#fig:distribution-of-Checkins-for-weekdays}
+![Checking on weekdays](images/Fig.6.PNG){#fig:distribution-of-Checkins-for-weekdays}
 
 We used pandas *groupby* function to calculate mean star ratings for businesses.
 For purpose of this project we decided to look at details of restaurants only. 
@@ -230,7 +238,7 @@ pizza and burger. One other thing to notice is that most of these restaurants
 are franchises. However, regional franchises have higher star ratings than ones 
 that have pan US presence.
 
-![Fig.7](images/Fig.7.PNG){#fig:top-rated-restaurants-on-Yelp}
+![Top rated restaurants](images/Fig.7.PNG){#fig:top-rated-restaurants-on-Yelp}
 
 +@figdDistribution-of-Star-ratings shows distribution of ratings offered to 
 businesses. We see that rating 5 was most used rating by reviewers for 
@@ -244,11 +252,11 @@ of reviews given by users. We can see in +@fig:distribution-of-number-of-reviews
 by-users that most users provided less than 5 reviews. There is small percentage 
 of users who have provided more than 30 reviews.
 
-![Fig.8](images/Fig.8.PNG){#fig:distribution-of-Star-ratings}
+![Distrubution of ratings](images/Fig.8.PNG){#fig:distribution-of-Star-ratings}
 
-![Fig.9](images/Fig.9.PNG){#fig:review-length-distribution-by-Star-rating}
+![Review length by ratings](images/Fig.9.PNG){#fig:review-length-distribution-by-Star-rating}
 
-![Fig.10](images/Fig.10.PNG){#fig:distribution-of-number-of-reviews-by-users}
+![Reviews by user](images/Fig.10.PNG){#fig:distribution-of-number-of-reviews-by-users}
 
 We were interested in seeing usage of words to describe user experience about a 
 certain place. We chose 11 words that we thought could have been most used in 
@@ -257,7 +265,7 @@ emotions. +@fig:most-commonly-used-words-for-good-and-bad-reviews shows that wor
 *great* was used a lot by users to describe positive experience. Word *bad* was
 used mostly to describe negative experience.
 
-![Fig.11](images/Fig.11.PNG){#fig:most-commonly-used-words-for-good-and-bad-reviews}
+![Most commonly used words in reviews](images/Fig.11.PNG){#fig:most-commonly-used-words-for-good-and-bad-reviews}
 
 ## Discussion
 
