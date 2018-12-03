@@ -8,7 +8,7 @@ We have divided the project into two parts. In the first part, we visualize and 
 
 ## Data
 
-* yelp_business.csv - This is the data file which is located in the [*data*](link here) folder. This file contains information about the business like business_id, name of the business, postal code, number of stars for the business, review count, category of the business etc.
+* yelp_business.csv - This file contains information about the business like business_id, name of the business, postal code, number of stars for the business, review count, category of the business etc.
 * yelp_review.csv - This file contains information about the user reviews like user_id, business_id, date of the review, usefulness of the reviews etc.
 * yelp_tip.csv
 * yelp_checkin.csv.
