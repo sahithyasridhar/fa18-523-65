@@ -1,4 +1,4 @@
-# Data analysis Of Yelp reviews :hand: fa18-523-65, fa18-523-67
+# Data analysis Of Yelp reviews :smiley: fa18-523-65, fa18-523-67
 
 | Prajakta Patil, Sahithya Sridhar 
 | patilpr@iu.edu, sahsrid@iu.edu
@@ -14,29 +14,32 @@ Keywords: Yelp, Natural language processing (NLP), Sentiment analysis, Scikit-le
 
 ## Abstract
 
-Yelp is quite a useful platform to read and upload reviews for businesses
-like restaurants. The main objective of our work is to perform analysis on
-text reviews to find how well they correlate with star ratings given by 
-users to restaurants. It is found that star ratings 1 and 5 are well 
+Yelp is quite a useful platform for users to read and upload reviews for 
+businesses such as restaurants. The main objective of our work is to perform 
+analysis on text reviews to find how well they correlate with star ratings 
+given by users to restaurants. It is found that star ratings 1 and 5 are well 
 correlated with textual reviews unlike ratings 2, 3 and 4. Our analysis
 can help users make better decisions by suggesting them to either look at
-star ratings or go through actual text reviews [@fa18-523-65-www-1].
+star ratings or go through actual text reviews before selecting a business
+for their next visit [@fa18-523-65-www-1].
 
 ## Introduction
 
-Users visit Yelp to either look for a restaurant or write a review for one
-after their visit. Yelp had 148 million reviews on its website at the end 
-of 2017. These reviews are in both text and star rating formats. Users also
-post pictures of food and the restaurant which in turn is used for making 
-decisions. This is also useful for businesses to improve their services.
-When a restaurant is very popular, it tends to have lot of reviews and in
-general, a higher star rating. In such cases, people are drawn to choose 
-that restaurant if it fits their choice of cuisine, budget and other 
-parameters they might have in mind. However, when there are multiple 
-restaurants that are similar, it becomes little difficult to pick one. We 
-took a dataset of Yelp reviews and tried to find correlations between text
-reviews and star ratings. We performed additional analysis to show additional
-patterns in data. The technologies used to perform this analysis is Natural
+Users visit Yelp website to either look for a restaurant or write a review 
+for one after their visit. Yelp also has reviews and related information 
+for various other businesses as shown later in this project. Yelp had 148 
+million reviews on its website at the end of 2017. These reviews are in 
+both text and star rating formats. Users also post pictures of food and 
+the restaurant which in turn is used by other users for making decisions. 
+This is also useful for businesses to improve their services. When a 
+restaurant is very popular, it tends to have lot of reviews and in general, 
+a higher star rating. In such cases, people are drawn to choose that 
+restaurant if it fits their choice of cuisine, budget and other parameters 
+they might have in mind. However, when there are multiple restaurants that 
+are similar, it becomes little difficult to pick one. We took a dataset 
+of Yelp reviews and tried to find correlations between text reviews and 
+star ratings. We performed additional analysis to show various patterns 
+in data. The technologies used to perform this analysis is Natural 
 Language Processing and Sentiment Analysis [@fa18-523-65-www-1].
 
 ## Literature review
@@ -241,11 +244,11 @@ that have pan US presence.
 +@fig:distribution-of-Star-ratings shows distribution of ratings offered to 
 businesses. We see that rating 5 was most used rating by reviewers for 
 describing their experience at given restaurant whereas the rating 2 was 
-the least. Looking at distribution of review length for each star rating shows 
+the least used. Looking at distribution of review length for each star rating shows 
 there was no significant difference in review length distribution. 
 However, comparing +@fig:review-length-distribution-by-Star-rating with 
-+@fig:distribution-of-Star-ratings shows same trend. Meaning more restaurants got
-5-star rating but they also got some textual review. We also looked average number 
++@fig:distribution-of-Star-ratings shows same trend. Meaning, more restaurants got
+5-star rating but they also got some textual review. We also looked at average number 
 of reviews given by users. We can see in +@fig:distribution-of-number-of-reviews-by-users 
 that most users provided less than 5 reviews. There is small percentage 
 of users who have provided more than 30 reviews.
@@ -274,16 +277,17 @@ difficult to find how many users write a very objective review and give star
 ratings accordingly. It is possible that someone has either a better or worse
 than expected experience and provides a review based purely on emotions at that
 point of time. Additional analysis is needed to understand how a person from a
-certain cultural background finds food from other cultures appealing or not.
+certain cultural background finds food from other cultures i.e. whether there
+is a bias in their feedback because they are not used to certain taste.
 
 ## Conclusions
 
 We have been able to show how textual reviews and star ratings are generally 
 moderately correlated. While choosing a restaurant, a user can rely more on star
-rating 4 to find a good place and a star rating 1 to know that a certain place is bad.
+rating 5 to find a good place and a star rating 1 to know that a certain place is bad.
 If the restaurant has a star rating of 2 or 3, they will have to spend more time in
-reading the actual textual reviews to make their decision. A good business has in 
-general a lot more reviews than a bad one. Most users give very few reviews and they
+reading the actual textual reviews to make their decision. In general a good business 
+a lot more reviews than a bad one. Most users give very few reviews and they
 do so more in case if their experience was good. Businesses serving pizzas and burgers
 are one of the most liked places.
 
