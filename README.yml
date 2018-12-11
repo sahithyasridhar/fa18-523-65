@@ -1,24 +1,29 @@
 ---
 owner:
-  firstname: Prajakta
-  lastname: Patil
-  hid: fa18-523-65
+  firstname: "Prajakta"
+  lastname: "Patil"
+  hid: "fa18-523-65"
   community: i523
   semester: fa18
+  Online: "Yes" 
 profile:
   - url: https://github.com/PrajaktaRPatil  
-  Notebook:
+  
+Notebook:
   - url: https://github.com/cloudmesh-community/fa18-523-65/blob/master/notebook.md 
+  
 technologies:
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/cascading.md 
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/nimbus.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/kafka.md
   - url: https://github.com/cloudmesh/technologies/blob/master/chapters/tech/sentry.md
+  
 paper:
   - title: Natural language processing
     keyword: Language
     url: https://github.com/cloudmesh-community/fa18-523-65/tree/master/paper/paper.md
     group: fa18-523-65 fa18-523-67
+    
 project: 
   - title: Data analysis Of Yelp reviews
     keyword: Yelp
