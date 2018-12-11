@@ -15,11 +15,11 @@ technologies:
 paper:
   - title: Natural language processing
     keyword: Language
-    url: https://github.com/cloudmesh-community/fa18-523-65/blob/master/paper/paper.md
+    url: https://github.com/cloudmesh-community/fa18-523-65/tree/master/paper/paper.md
     group: fa18-523-65 fa18-523-67
 project: 
   - title: Data analysis Of Yelp reviews
     keyword: Yelp
-    url: https://github.com/cloudmesh-community/fa18-523-65/blob/master/project-report/report.md
+    url: https://github.com/cloudmesh-community/fa18-523-65/tree/master/project-report/report.md
     group: fa18-523-65 fa18-523-67
     code: https://github.com/cloudmesh-community/fa18-523-65/tree/master/project_code
